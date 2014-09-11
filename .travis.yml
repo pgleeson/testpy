@@ -6,8 +6,8 @@ python:
 
 # command to install dependencies
 install:
-  - sudo apt-get install -qq libhdf5-serial-dev liblzo2-dev libbz2-dev 
-  - "pip install cython==0.20.2"
+  - sudo apt-get install -qq libhdf5-serial-dev 
+  - "pip install cython"
   - "pip install numpy"
   - "pip install numexpr"
   - "pip install tables"

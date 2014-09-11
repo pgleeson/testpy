@@ -52,7 +52,6 @@ m[2] = v2
 print("\n   m:\n")
 print(m)
 
-exit()
 
 import tables
 h5file = tables.openFile("tutorial1.h5", mode = "w", title = "Test file")

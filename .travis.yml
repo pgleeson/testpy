@@ -8,6 +8,7 @@ python:
 install:
   - "pip install cython==0.20.2"
   - "pip install numpy"
+  - "pip install numexpr"
   - "pip install tables"
 
 script: 

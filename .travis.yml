@@ -11,6 +11,7 @@ install:
   - "pip install numpy"
   - "pip install numexpr"
   - "pip install tables"
+  - "pip install jsonpickle"
 
 script: 
   - python numper.py

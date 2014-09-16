@@ -12,3 +12,4 @@ install:
 
 script: 
   - python numper.py
+  - python jickle.py

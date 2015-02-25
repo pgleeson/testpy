@@ -1,0 +1,3028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta4.xsd"
+    id = "NeuroML2_file_exported_from_NEURON">
+
+  <cell id="Mitral_0_58">
+    <notes>Cell: Mitral_0_58 exported from NEURON ModelView</notes>
+    <morphology id="morphology">
+<!-- Section: Mitral[58].soma (segmentGroup: soma) which has 21 3D points, so 20 segment(s)-->
+      <segment id="38288" name = "Seg0_soma">
+        <proximal x="358.209" y="1319.71" z="645.28" diameter="2.53773"/>
+        <distal x="359.763" y="1319.84" z="644.398" diameter="3.66685"/>
+      </segment>
+      <segment id="38289" name = "Seg1_soma">
+        <parent segment="38288"/>
+        <distal x="361.318" y="1319.98" z="643.516" diameter="5.31313"/>
+      </segment>
+      <segment id="38290" name = "Seg2_soma">
+        <parent segment="38289"/>
+        <distal x="362.872" y="1320.11" z="642.634" diameter="6.31607"/>
+      </segment>
+      <segment id="38291" name = "Seg3_soma">
+        <parent segment="38290"/>
+        <distal x="364.427" y="1320.25" z="641.752" diameter="7.29106"/>
+      </segment>
+      <segment id="38292" name = "Seg4_soma">
+        <parent segment="38291"/>
+        <distal x="365.981" y="1320.38" z="640.87" diameter="8.08265"/>
+      </segment>
+      <segment id="38293" name = "Seg5_soma">
+        <parent segment="38292"/>
+        <distal x="367.536" y="1320.52" z="639.989" diameter="8.85495"/>
+      </segment>
+      <segment id="38294" name = "Seg6_soma">
+        <parent segment="38293"/>
+        <distal x="369.09" y="1320.65" z="639.107" diameter="9.49124"/>
+      </segment>
+      <segment id="38295" name = "Seg7_soma">
+        <parent segment="38294"/>
+        <distal x="370.645" y="1320.79" z="638.225" diameter="9.94162"/>
+      </segment>
+      <segment id="38296" name = "Seg8_soma">
+        <parent segment="38295"/>
+        <distal x="372.199" y="1320.93" z="637.343" diameter="10.3171"/>
+      </segment>
+      <segment id="38297" name = "Seg9_soma">
+        <parent segment="38296"/>
+        <distal x="373.753" y="1321.06" z="636.461" diameter="10.4725"/>
+      </segment>
+      <segment id="38298" name = "Seg10_soma">
+        <parent segment="38297"/>
+        <distal x="375.308" y="1321.2" z="635.579" diameter="10.5889"/>
+      </segment>
+      <segment id="38299" name = "Seg11_soma">
+        <parent segment="38298"/>
+        <distal x="376.862" y="1321.33" z="634.697" diameter="10.7002"/>
+      </segment>
+      <segment id="38300" name = "Seg12_soma">
+        <parent segment="38299"/>
+        <distal x="378.417" y="1321.47" z="633.815" diameter="10.8104"/>
+      </segment>
+      <segment id="38301" name = "Seg13_soma">
+        <parent segment="38300"/>
+        <distal x="379.971" y="1321.6" z="632.934" diameter="10.7998"/>
+      </segment>
+      <segment id="38302" name = "Seg14_soma">
+        <parent segment="38301"/>
+        <distal x="381.526" y="1321.74" z="632.052" diameter="10.6434"/>
+      </segment>
+      <segment id="38303" name = "Seg15_soma">
+        <parent segment="38302"/>
+        <distal x="383.08" y="1321.87" z="631.17" diameter="10.2144"/>
+      </segment>
+      <segment id="38304" name = "Seg16_soma">
+        <parent segment="38303"/>
+        <distal x="384.635" y="1322.01" z="630.288" diameter="9.67498"/>
+      </segment>
+      <segment id="38305" name = "Seg17_soma">
+        <parent segment="38304"/>
+        <distal x="386.189" y="1322.14" z="629.406" diameter="8.2052"/>
+      </segment>
+      <segment id="38306" name = "Seg18_soma">
+        <parent segment="38305"/>
+        <distal x="387.743" y="1322.28" z="628.524" diameter="5.77718"/>
+      </segment>
+      <segment id="38307" name = "Seg19_soma">
+        <parent segment="38306"/>
+        <distal x="389.298" y="1322.41" z="627.642" diameter="3.22379"/>
+      </segment>
+<!-- Section: Mitral[58].hillock (segmentGroup: hillock) which has 2 3D points, so 1 segment(s)-->
+      <segment id="38739" name = "Seg0_hillock">  <!-- Connected at 0 on parent section: Mitral[58].soma  -->
+        <parent segment="38287"/>
+        <proximal x="0" y="0" z="0" diameter="16.9167"/>
+        <distal x="0" y="-5" z="0" diameter="4.58333"/>
+      </segment>
+<!-- Section: Mitral[58].secden[3] (segmentGroup: secden_3) which has 8 3D points, so 7 segment(s)-->
+      <segment id="38340" name = "Seg0_secden_3">  <!-- Connected at 0.5 on parent section: Mitral[58].soma  -->
+        <parent segment="38296"/>
+        <proximal x="373.753" y="1321.06" z="636.461" diameter="2.90054"/>
+        <distal x="378.321" y="1338.72" z="644.664" diameter="2.60778"/>
+      </segment>
+      <segment id="38341" name = "Seg1_secden_3">
+        <parent segment="38340"/>
+        <distal x="384.343" y="1357.46" z="648.196" diameter="2.6007"/>
+      </segment>
+      <segment id="38342" name = "Seg2_secden_3">
+        <parent segment="38341"/>
+        <distal x="389.477" y="1373.01" z="659.68" diameter="2.39221"/>
+      </segment>
+      <segment id="38343" name = "Seg3_secden_3">
+        <parent segment="38342"/>
+        <distal x="397.174" y="1386.73" z="672.031" diameter="2.69792"/>
+      </segment>
+      <segment id="38344" name = "Seg4_secden_3">
+        <parent segment="38343"/>
+        <distal x="408.902" y="1402.37" z="676.239" diameter="2.94802"/>
+      </segment>
+      <segment id="38345" name = "Seg5_secden_3">
+        <parent segment="38344"/>
+        <distal x="414.332" y="1419" z="685.939" diameter="2.77509"/>
+      </segment>
+      <segment id="38346" name = "Seg6_secden_3">
+        <parent segment="38345"/>
+        <distal x="424.748" y="1432.86" z="695.911" diameter="2.36606"/>
+      </segment>
+<!-- Section: Mitral[58].secden[2] (segmentGroup: secden_2) which has 3 3D points, so 2 segment(s)-->
+      <segment id="38338" name = "Seg0_secden_2">  <!-- Connected at 0.5 on parent section: Mitral[58].soma  -->
+        <parent segment="38296"/>
+        <proximal x="373.753" y="1321.06" z="636.461" diameter="2.91846"/>
+        <distal x="392.819" y="1324.7" z="641.281" diameter="2.8984"/>
+      </segment>
+      <segment id="38339" name = "Seg1_secden_2">
+        <parent segment="38338"/>
+        <distal x="412.511" y="1326.65" z="638.374" diameter="2.97621"/>
+      </segment>
+<!-- Section: Mitral[58].secden[1] (segmentGroup: secden_1) which has 5 3D points, so 4 segment(s)-->
+      <segment id="38334" name = "Seg0_secden_1">  <!-- Connected at 0.5 on parent section: Mitral[58].soma  -->
+        <parent segment="38296"/>
+        <proximal x="373.753" y="1321.06" z="636.461" diameter="2.85609"/>
+        <distal x="369.58" y="1305.59" z="648.436" diameter="2.8272"/>
+      </segment>
+      <segment id="38335" name = "Seg1_secden_1">
+        <parent segment="38334"/>
+        <distal x="368.456" y="1287.04" z="655.805" diameter="2.84023"/>
+      </segment>
+      <segment id="38336" name = "Seg2_secden_1">
+        <parent segment="38335"/>
+        <distal x="367.063" y="1270.73" z="667.299" diameter="2.78446"/>
+      </segment>
+      <segment id="38337" name = "Seg3_secden_1">
+        <parent segment="38336"/>
+        <distal x="366.465" y="1255.64" z="680.419" diameter="2.90018"/>
+      </segment>
+<!-- Section: Mitral[58].secden[0] (segmentGroup: secden_0) which has 4 3D points, so 3 segment(s)-->
+      <segment id="38331" name = "Seg0_secden_0">  <!-- Connected at 0.5 on parent section: Mitral[58].soma  -->
+        <parent segment="38296"/>
+        <proximal x="373.753" y="1321.06" z="636.461" diameter="2.95323"/>
+        <distal x="362.262" y="1325.55" z="652.202" diameter="2.9988"/>
+      </segment>
+      <segment id="38332" name = "Seg1_secden_0">
+        <parent segment="38331"/>
+        <distal x="353.667" y="1327.14" z="670.192" diameter="2.76444"/>
+      </segment>
+      <segment id="38333" name = "Seg2_secden_0">
+        <parent segment="38332"/>
+        <distal x="340.183" y="1330.77" z="684.508" diameter="2.86131"/>
+      </segment>
+<!-- Section: Mitral[58].priden (segmentGroup: priden) which has 24 3D points, so 23 segment(s)-->
+      <segment id="38308" name = "Seg0_priden">
+        <parent segment="38307"/>
+        <proximal x="373.753" y="1321.06" z="636.461" diameter="5"/>
+        <distal x="380.237" y="1317.59" z="654.841" diameter="5"/>
+      </segment>
+      <segment id="38309" name = "Seg1_priden">
+        <parent segment="38308"/>
+        <distal x="387.466" y="1316.15" z="673.209" diameter="5"/>
+      </segment>
+      <segment id="38310" name = "Seg2_priden">
+        <parent segment="38309"/>
+        <distal x="393.967" y="1316.53" z="691.899" diameter="5"/>
+      </segment>
+      <segment id="38311" name = "Seg3_priden">
+        <parent segment="38310"/>
+        <distal x="402.373" y="1315.76" z="709.796" diameter="5"/>
+      </segment>
+      <segment id="38312" name = "Seg4_priden">
+        <parent segment="38311"/>
+        <distal x="406.354" y="1312.36" z="728.899" diameter="5"/>
+      </segment>
+      <segment id="38313" name = "Seg5_priden">
+        <parent segment="38312"/>
+        <distal x="413.051" y="1311.72" z="747.513" diameter="5"/>
+      </segment>
+      <segment id="38314" name = "Seg6_priden">
+        <parent segment="38313"/>
+        <distal x="420.864" y="1308.23" z="765.362" diameter="5"/>
+      </segment>
+      <segment id="38315" name = "Seg7_priden">
+        <parent segment="38314"/>
+        <distal x="424.827" y="1305.95" z="784.632" diameter="5"/>
+      </segment>
+      <segment id="38316" name = "Seg8_priden">
+        <parent segment="38315"/>
+        <distal x="433.818" y="1305.46" z="802.25" diameter="5"/>
+      </segment>
+      <segment id="38317" name = "Seg9_priden">
+        <parent segment="38316"/>
+        <distal x="444.181" y="1304.75" z="819.088" diameter="5"/>
+      </segment>
+      <segment id="38318" name = "Seg10_priden">
+        <parent segment="38317"/>
+        <distal x="450.616" y="1304.79" z="837.805" diameter="5"/>
+      </segment>
+      <segment id="38319" name = "Seg11_priden">
+        <parent segment="38318"/>
+        <distal x="459.158" y="1305.41" z="855.642" diameter="5"/>
+      </segment>
+      <segment id="38320" name = "Seg12_priden">
+        <parent segment="38319"/>
+        <distal x="469.135" y="1307.43" z="872.607" diameter="5"/>
+      </segment>
+      <segment id="38321" name = "Seg13_priden">
+        <parent segment="38320"/>
+        <distal x="472.315" y="1307.84" z="892.152" diameter="5"/>
+      </segment>
+      <segment id="38322" name = "Seg14_priden">
+        <parent segment="38321"/>
+        <distal x="477.605" y="1306.15" z="911.156" diameter="5"/>
+      </segment>
+      <segment id="38323" name = "Seg15_priden">
+        <parent segment="38322"/>
+        <distal x="487.487" y="1299.54" z="926.987" diameter="5"/>
+      </segment>
+      <segment id="38324" name = "Seg16_priden">
+        <parent segment="38323"/>
+        <distal x="492.885" y="1298.56" z="946.009" diameter="5"/>
+      </segment>
+      <segment id="38325" name = "Seg17_priden">
+        <parent segment="38324"/>
+        <distal x="495.76" y="1298.82" z="965.605" diameter="5"/>
+      </segment>
+      <segment id="38326" name = "Seg18_priden">
+        <parent segment="38325"/>
+        <distal x="498.462" y="1298.73" z="985.229" diameter="5"/>
+      </segment>
+      <segment id="38327" name = "Seg19_priden">
+        <parent segment="38326"/>
+        <distal x="510.201" y="1298.66" z="1001.15" diameter="5"/>
+      </segment>
+      <segment id="38328" name = "Seg20_priden">
+        <parent segment="38327"/>
+        <distal x="516.483" y="1298.92" z="1019.92" diameter="5"/>
+      </segment>
+      <segment id="38329" name = "Seg21_priden">
+        <parent segment="38328"/>
+        <distal x="524.8" y="1298.66" z="1037.87" diameter="5"/>
+      </segment>
+      <segment id="38330" name = "Seg22_priden">
+        <parent segment="38329"/>
+        <distal x="529.799" y="1296.74" z="1056.94" diameter="5"/>
+      </segment>
+<!-- Section: Mitral[58].initialseg (segmentGroup: initialseg) which has 2 3D points, so 1 segment(s)-->
+      <segment id="38740" name = "Seg0_initialseg">
+        <parent segment="38739"/>
+        <proximal x="0" y="0" z="0" diameter="1.5"/>
+        <distal x="0" y="-30" z="0" diameter="1.5"/>
+      </segment>
+<!-- Section: Mitral[58].secden[11] (segmentGroup: secden_11) which has 3 3D points, so 2 segment(s)-->
+      <segment id="38491" name = "Seg0_secden_11">
+        <parent segment="38346"/>
+        <proximal x="424.748" y="1432.86" z="695.911" diameter="2.36606"/>
+        <distal x="435.186" y="1449.37" z="700.185" diameter="2.89443"/>
+      </segment>
+      <segment id="38492" name = "Seg1_secden_11">
+        <parent segment="38491"/>
+        <distal x="446.531" y="1465.79" z="701.5" diameter="2.81426"/>
+      </segment>
+<!-- Section: Mitral[58].secden[10] (segmentGroup: secden_10) which has 26 3D points, so 25 segment(s)-->
+      <segment id="38466" name = "Seg0_secden_10">
+        <parent segment="38346"/>
+        <proximal x="424.748" y="1432.86" z="695.911" diameter="2.36606"/>
+        <distal x="424.407" y="1450.04" z="706.149" diameter="2.72377"/>
+      </segment>
+      <segment id="38467" name = "Seg1_secden_10">
+        <parent segment="38466"/>
+        <distal x="425.735" y="1469.09" z="712.088" diameter="2.64846"/>
+      </segment>
+      <segment id="38468" name = "Seg2_secden_10">
+        <parent segment="38467"/>
+        <distal x="418.611" y="1487.26" z="716.458" diameter="2.84508"/>
+      </segment>
+      <segment id="38469" name = "Seg3_secden_10">
+        <parent segment="38468"/>
+        <distal x="415.461" y="1505.6" z="723.796" diameter="2.78067"/>
+      </segment>
+      <segment id="38470" name = "Seg4_secden_10">
+        <parent segment="38469"/>
+        <distal x="417.717" y="1525.32" z="726.253" diameter="2.63224"/>
+      </segment>
+      <segment id="38471" name = "Seg5_secden_10">
+        <parent segment="38470"/>
+        <distal x="414.519" y="1544.63" z="730.351" diameter="2.97299"/>
+      </segment>
+      <segment id="38472" name = "Seg6_secden_10">
+        <parent segment="38471"/>
+        <distal x="409.274" y="1563.93" z="730.398" diameter="2.56086"/>
+      </segment>
+      <segment id="38473" name = "Seg7_secden_10">
+        <parent segment="38472"/>
+        <distal x="407.901" y="1583.86" z="729.461" diameter="2.78456"/>
+      </segment>
+      <segment id="38474" name = "Seg8_secden_10">
+        <parent segment="38473"/>
+        <distal x="406.335" y="1603.77" z="728.488" diameter="2.71879"/>
+      </segment>
+      <segment id="38475" name = "Seg9_secden_10">
+        <parent segment="38474"/>
+        <distal x="398.877" y="1622.08" z="731.502" diameter="2.99643"/>
+      </segment>
+      <segment id="38476" name = "Seg10_secden_10">
+        <parent segment="38475"/>
+        <distal x="394.9" y="1641.26" z="735.554" diameter="2.68727"/>
+      </segment>
+      <segment id="38477" name = "Seg11_secden_10">
+        <parent segment="38476"/>
+        <distal x="388.748" y="1660.03" z="732.415" diameter="1.8789"/>
+      </segment>
+      <segment id="38478" name = "Seg12_secden_10">
+        <parent segment="38477"/>
+        <distal x="387.434" y="1678.4" z="740.209" diameter="2.52591"/>
+      </segment>
+      <segment id="38479" name = "Seg13_secden_10">
+        <parent segment="38478"/>
+        <distal x="389.093" y="1697.9" z="736.091" diameter="2.88971"/>
+      </segment>
+      <segment id="38480" name = "Seg14_secden_10">
+        <parent segment="38479"/>
+        <distal x="384.271" y="1716.38" z="730.142" diameter="2.49616"/>
+      </segment>
+      <segment id="38481" name = "Seg15_secden_10">
+        <parent segment="38480"/>
+        <distal x="385.291" y="1735.08" z="723.135" diameter="2.56381"/>
+      </segment>
+      <segment id="38482" name = "Seg16_secden_10">
+        <parent segment="38481"/>
+        <distal x="370.871" y="1748.57" z="719.935" diameter="2.13086"/>
+      </segment>
+      <segment id="38483" name = "Seg17_secden_10">
+        <parent segment="38482"/>
+        <distal x="367.544" y="1762.19" z="734.195" diameter="2.4168"/>
+      </segment>
+      <segment id="38484" name = "Seg18_secden_10">
+        <parent segment="38483"/>
+        <distal x="357.268" y="1776.05" z="724.084" diameter="2.2996"/>
+      </segment>
+      <segment id="38485" name = "Seg19_secden_10">
+        <parent segment="38484"/>
+        <distal x="341.703" y="1786.77" z="717.535" diameter="1.90674"/>
+      </segment>
+      <segment id="38486" name = "Seg20_secden_10">
+        <parent segment="38485"/>
+        <distal x="338.806" y="1805.88" z="712.392" diameter="2.62152"/>
+      </segment>
+      <segment id="38487" name = "Seg21_secden_10">
+        <parent segment="38486"/>
+        <distal x="346.769" y="1824.06" z="709.912" diameter="1.97001"/>
+      </segment>
+      <segment id="38488" name = "Seg22_secden_10">
+        <parent segment="38487"/>
+        <distal x="343.431" y="1841.93" z="701.582" diameter="2.16184"/>
+      </segment>
+      <segment id="38489" name = "Seg23_secden_10">
+        <parent segment="38488"/>
+        <distal x="337.281" y="1858.7" z="692.59" diameter="2.44072"/>
+      </segment>
+      <segment id="38490" name = "Seg24_secden_10">
+        <parent segment="38489"/>
+        <distal x="330.58" y="1876.66" z="686.893" diameter="1.86859"/>
+      </segment>
+<!-- Section: Mitral[58].secden[5] (segmentGroup: secden_5) which has 34 3D points, so 33 segment(s)-->
+      <segment id="38353" name = "Seg0_secden_5">
+        <parent segment="38339"/>
+        <proximal x="412.511" y="1326.65" z="638.374" diameter="2.97621"/>
+        <distal x="428.9" y="1324.55" z="649.643" diameter="2.97296"/>
+      </segment>
+      <segment id="38354" name = "Seg1_secden_5">
+        <parent segment="38353"/>
+        <distal x="445.952" y="1320.34" z="659.211" diameter="2.12604"/>
+      </segment>
+      <segment id="38355" name = "Seg2_secden_5">
+        <parent segment="38354"/>
+        <distal x="465.601" y="1318.36" z="656.055" diameter="2.83047"/>
+      </segment>
+      <segment id="38356" name = "Seg3_secden_5">
+        <parent segment="38355"/>
+        <distal x="485.475" y="1318.5" z="658.295" diameter="2.75432"/>
+      </segment>
+      <segment id="38357" name = "Seg4_secden_5">
+        <parent segment="38356"/>
+        <distal x="504.885" y="1320.6" z="662.637" diameter="2.64574"/>
+      </segment>
+      <segment id="38358" name = "Seg5_secden_5">
+        <parent segment="38357"/>
+        <distal x="524.382" y="1317.68" z="666" diameter="2.87378"/>
+      </segment>
+      <segment id="38359" name = "Seg6_secden_5">
+        <parent segment="38358"/>
+        <distal x="543.657" y="1322.93" z="665.087" diameter="2.77423"/>
+      </segment>
+      <segment id="38360" name = "Seg7_secden_5">
+        <parent segment="38359"/>
+        <distal x="563.632" y="1322.93" z="666.102" diameter="2.37737"/>
+      </segment>
+      <segment id="38361" name = "Seg8_secden_5">
+        <parent segment="38360"/>
+        <distal x="583.506" y="1321.16" z="664.727" diameter="2.63383"/>
+      </segment>
+      <segment id="38362" name = "Seg9_secden_5">
+        <parent segment="38361"/>
+        <distal x="603.26" y="1318.15" z="663.912" diameter="2.92598"/>
+      </segment>
+      <segment id="38363" name = "Seg10_secden_5">
+        <parent segment="38362"/>
+        <distal x="622.876" y="1316.96" z="660.192" diameter="2.73281"/>
+      </segment>
+      <segment id="38364" name = "Seg11_secden_5">
+        <parent segment="38363"/>
+        <distal x="642.007" y="1313.51" z="655.491" diameter="2.83671"/>
+      </segment>
+      <segment id="38365" name = "Seg12_secden_5">
+        <parent segment="38364"/>
+        <distal x="661.03" y="1309.73" z="660.371" diameter="2.09533"/>
+      </segment>
+      <segment id="38366" name = "Seg13_secden_5">
+        <parent segment="38365"/>
+        <distal x="676.607" y="1309.42" z="647.831" diameter="2.8809"/>
+      </segment>
+      <segment id="38367" name = "Seg14_secden_5">
+        <parent segment="38366"/>
+        <distal x="694.876" y="1308.23" z="639.779" diameter="2.86398"/>
+      </segment>
+      <segment id="38368" name = "Seg15_secden_5">
+        <parent segment="38367"/>
+        <distal x="713.364" y="1302.61" z="634.623" diameter="2.05022"/>
+      </segment>
+      <segment id="38369" name = "Seg16_secden_5">
+        <parent segment="38368"/>
+        <distal x="728.273" y="1293.67" z="624.734" diameter="2.87418"/>
+      </segment>
+      <segment id="38370" name = "Seg17_secden_5">
+        <parent segment="38369"/>
+        <distal x="745.044" y="1292.62" z="613.887" diameter="2.09372"/>
+      </segment>
+      <segment id="38371" name = "Seg18_secden_5">
+        <parent segment="38370"/>
+        <distal x="761.648" y="1285.46" z="605.348" diameter="2.66449"/>
+      </segment>
+      <segment id="38372" name = "Seg19_secden_5">
+        <parent segment="38371"/>
+        <distal x="776.775" y="1282.89" z="592.518" diameter="2.22233"/>
+      </segment>
+      <segment id="38373" name = "Seg20_secden_5">
+        <parent segment="38372"/>
+        <distal x="791.787" y="1279.33" z="579.794" diameter="2.18235"/>
+      </segment>
+      <segment id="38374" name = "Seg21_secden_5">
+        <parent segment="38373"/>
+        <distal x="805.491" y="1276.2" z="565.567" diameter="2.41114"/>
+      </segment>
+      <segment id="38375" name = "Seg22_secden_5">
+        <parent segment="38374"/>
+        <distal x="818.85" y="1270.81" z="551.693" diameter="1.80413"/>
+      </segment>
+      <segment id="38376" name = "Seg23_secden_5">
+        <parent segment="38375"/>
+        <distal x="832.326" y="1261.44" z="540.264" diameter="2.11258"/>
+      </segment>
+      <segment id="38377" name = "Seg24_secden_5">
+        <parent segment="38376"/>
+        <distal x="843.279" y="1257.77" z="523.937" diameter="2.528"/>
+      </segment>
+      <segment id="38378" name = "Seg25_secden_5">
+        <parent segment="38377"/>
+        <distal x="848.242" y="1256.56" z="504.6" diameter="1.95496"/>
+      </segment>
+      <segment id="38379" name = "Seg26_secden_5">
+        <parent segment="38378"/>
+        <distal x="857.202" y="1254.36" z="486.856" diameter="2.17373"/>
+      </segment>
+      <segment id="38380" name = "Seg27_secden_5">
+        <parent segment="38379"/>
+        <distal x="867.097" y="1251.97" z="469.64" diameter="2.3367"/>
+      </segment>
+      <segment id="38381" name = "Seg28_secden_5">
+        <parent segment="38380"/>
+        <distal x="876.253" y="1250.26" z="451.941" diameter="2.30097"/>
+      </segment>
+      <segment id="38382" name = "Seg29_secden_5">
+        <parent segment="38381"/>
+        <distal x="883.063" y="1241.99" z="435.052" diameter="2.39989"/>
+      </segment>
+      <segment id="38383" name = "Seg30_secden_5">
+        <parent segment="38382"/>
+        <distal x="889.997" y="1238.86" z="416.555" diameter="2.22037"/>
+      </segment>
+      <segment id="38384" name = "Seg31_secden_5">
+        <parent segment="38383"/>
+        <distal x="903.472" y="1228.79" z="405.735" diameter="1.78764"/>
+      </segment>
+      <segment id="38385" name = "Seg32_secden_5">
+        <parent segment="38384"/>
+        <distal x="907.613" y="1226.72" z="386.278" diameter="1.78947"/>
+      </segment>
+<!-- Section: Mitral[58].secden[4] (segmentGroup: secden_4) which has 7 3D points, so 6 segment(s)-->
+      <segment id="38347" name = "Seg0_secden_4">
+        <parent segment="38339"/>
+        <proximal x="412.511" y="1326.65" z="638.374" diameter="2.97621"/>
+        <distal x="430.969" y="1333.48" z="641.93" diameter="2.99341"/>
+      </segment>
+      <segment id="38348" name = "Seg1_secden_4">
+        <parent segment="38347"/>
+        <distal x="446.66" y="1344.16" z="648.232" diameter="2.06159"/>
+      </segment>
+      <segment id="38349" name = "Seg2_secden_4">
+        <parent segment="38348"/>
+        <distal x="466.132" y="1348.37" z="649.995" diameter="2.57581"/>
+      </segment>
+      <segment id="38350" name = "Seg3_secden_4">
+        <parent segment="38349"/>
+        <distal x="486.015" y="1349.83" z="648.402" diameter="2.63681"/>
+      </segment>
+      <segment id="38351" name = "Seg4_secden_4">
+        <parent segment="38350"/>
+        <distal x="505.148" y="1355.32" z="646.457" diameter="2.47728"/>
+      </segment>
+      <segment id="38352" name = "Seg5_secden_4">
+        <parent segment="38351"/>
+        <distal x="521.913" y="1366.22" z="646.853" diameter="2.5615"/>
+      </segment>
+<!-- Section: Mitral[58].secden[9] (segmentGroup: secden_9) which has 23 3D points, so 22 segment(s)-->
+      <segment id="38444" name = "Seg0_secden_9">
+        <parent segment="38337"/>
+        <proximal x="366.465" y="1255.64" z="680.419" diameter="2.90018"/>
+        <distal x="364.342" y="1243.48" z="696.15" diameter="2.3496"/>
+      </segment>
+      <segment id="38445" name = "Seg1_secden_9">
+        <parent segment="38444"/>
+        <distal x="347.697" y="1233.04" z="699.876" diameter="1.91643"/>
+      </segment>
+      <segment id="38446" name = "Seg2_secden_9">
+        <parent segment="38445"/>
+        <distal x="333.887" y="1225.11" z="711.976" diameter="2.41417"/>
+      </segment>
+      <segment id="38447" name = "Seg3_secden_9">
+        <parent segment="38446"/>
+        <distal x="324.901" y="1216.63" z="727.702" diameter="2.93705"/>
+      </segment>
+      <segment id="38448" name = "Seg4_secden_9">
+        <parent segment="38447"/>
+        <distal x="312.778" y="1206.8" z="740.208" diameter="2.71064"/>
+      </segment>
+      <segment id="38449" name = "Seg5_secden_9">
+        <parent segment="38448"/>
+        <distal x="300.182" y="1197.6" z="752.728" diameter="2.81052"/>
+      </segment>
+      <segment id="38450" name = "Seg6_secden_9">
+        <parent segment="38449"/>
+        <distal x="288.083" y="1185.05" z="762.536" diameter="2.77104"/>
+      </segment>
+      <segment id="38451" name = "Seg7_secden_9">
+        <parent segment="38450"/>
+        <distal x="276.748" y="1170.9" z="770.973" diameter="2.81792"/>
+      </segment>
+      <segment id="38452" name = "Seg8_secden_9">
+        <parent segment="38451"/>
+        <distal x="264.536" y="1157.7" z="779.726" diameter="2.7925"/>
+      </segment>
+      <segment id="38453" name = "Seg9_secden_9">
+        <parent segment="38452"/>
+        <distal x="257.427" y="1141.25" z="788.622" diameter="2.99762"/>
+      </segment>
+      <segment id="38454" name = "Seg10_secden_9">
+        <parent segment="38453"/>
+        <distal x="245.985" y="1125.22" z="792.06" diameter="2.85721"/>
+      </segment>
+      <segment id="38455" name = "Seg11_secden_9">
+        <parent segment="38454"/>
+        <distal x="240.031" y="1106.71" z="796.78" diameter="2.46954"/>
+      </segment>
+      <segment id="38456" name = "Seg12_secden_9">
+        <parent segment="38455"/>
+        <distal x="229.925" y="1092.42" z="806.452" diameter="2.60336"/>
+      </segment>
+      <segment id="38457" name = "Seg13_secden_9">
+        <parent segment="38456"/>
+        <distal x="217.982" y="1076.77" z="809.989" diameter="2.49181"/>
+      </segment>
+      <segment id="38458" name = "Seg14_secden_9">
+        <parent segment="38457"/>
+        <distal x="205.146" y="1061.51" z="811.533" diameter="2.38895"/>
+      </segment>
+      <segment id="38459" name = "Seg15_secden_9">
+        <parent segment="38458"/>
+        <distal x="194.443" y="1045.07" z="815.417" diameter="2.0577"/>
+      </segment>
+      <segment id="38460" name = "Seg16_secden_9">
+        <parent segment="38459"/>
+        <distal x="185.116" y="1030.23" z="825.054" diameter="2.15654"/>
+      </segment>
+      <segment id="38461" name = "Seg17_secden_9">
+        <parent segment="38460"/>
+        <distal x="169.379" y="1017.93" z="826.017" diameter="2.61738"/>
+      </segment>
+      <segment id="38462" name = "Seg18_secden_9">
+        <parent segment="38461"/>
+        <distal x="155.569" y="1003.47" z="825.559" diameter="2.87557"/>
+      </segment>
+      <segment id="38463" name = "Seg19_secden_9">
+        <parent segment="38462"/>
+        <distal x="139.859" y="991.092" z="825.503" diameter="2.21394"/>
+      </segment>
+      <segment id="38464" name = "Seg20_secden_9">
+        <parent segment="38463"/>
+        <distal x="129.043" y="974.275" z="825.041" diameter="2.32279"/>
+      </segment>
+      <segment id="38465" name = "Seg21_secden_9">
+        <parent segment="38464"/>
+        <distal x="115.569" y="959.687" z="822.671" diameter="2.29033"/>
+      </segment>
+<!-- Section: Mitral[58].secden[8] (segmentGroup: secden_8) which has 14 3D points, so 13 segment(s)-->
+      <segment id="38431" name = "Seg0_secden_8">
+        <parent segment="38337"/>
+        <proximal x="366.465" y="1255.64" z="680.419" diameter="2.90018"/>
+        <distal x="368.73" y="1237.01" z="687.327" diameter="2.78695"/>
+      </segment>
+      <segment id="38432" name = "Seg1_secden_8">
+        <parent segment="38431"/>
+        <distal x="371.935" y="1230.81" z="706.067" diameter="2.60961"/>
+      </segment>
+      <segment id="38433" name = "Seg2_secden_8">
+        <parent segment="38432"/>
+        <distal x="373.431" y="1214.82" z="717.996" diameter="2.66599"/>
+      </segment>
+      <segment id="38434" name = "Seg3_secden_8">
+        <parent segment="38433"/>
+        <distal x="374.473" y="1195.68" z="723.689" diameter="2.74922"/>
+      </segment>
+      <segment id="38435" name = "Seg4_secden_8">
+        <parent segment="38434"/>
+        <distal x="374.168" y="1176.19" z="728.173" diameter="2.75004"/>
+      </segment>
+      <segment id="38436" name = "Seg5_secden_8">
+        <parent segment="38435"/>
+        <distal x="379.222" y="1159.32" z="737.651" diameter="2.59445"/>
+      </segment>
+      <segment id="38437" name = "Seg6_secden_8">
+        <parent segment="38436"/>
+        <distal x="378.66" y="1142.75" z="748.835" diameter="2.99493"/>
+      </segment>
+      <segment id="38438" name = "Seg7_secden_8">
+        <parent segment="38437"/>
+        <distal x="369.211" y="1125.49" z="752.427" diameter="1.88595"/>
+      </segment>
+      <segment id="38439" name = "Seg8_secden_8">
+        <parent segment="38438"/>
+        <distal x="364.179" y="1107.82" z="760.338" diameter="2.83318"/>
+      </segment>
+      <segment id="38440" name = "Seg9_secden_8">
+        <parent segment="38439"/>
+        <distal x="359.482" y="1088.56" z="762.948" diameter="2.54451"/>
+      </segment>
+      <segment id="38441" name = "Seg10_secden_8">
+        <parent segment="38440"/>
+        <distal x="367.764" y="1070.94" z="758.376" diameter="2.54851"/>
+      </segment>
+      <segment id="38442" name = "Seg11_secden_8">
+        <parent segment="38441"/>
+        <distal x="366.544" y="1057.12" z="772.779" diameter="2.27772"/>
+      </segment>
+      <segment id="38443" name = "Seg12_secden_8">
+        <parent segment="38442"/>
+        <distal x="366.204" y="1037.13" z="773.301" diameter="2.35003"/>
+      </segment>
+<!-- Section: Mitral[58].secden[7] (segmentGroup: secden_7) which has 36 3D points, so 35 segment(s)-->
+      <segment id="38396" name = "Seg0_secden_7">
+        <parent segment="38333"/>
+        <proximal x="340.183" y="1330.77" z="684.508" diameter="2.86131"/>
+        <distal x="330.481" y="1344.43" z="695.427" diameter="2.90634"/>
+      </segment>
+      <segment id="38397" name = "Seg1_secden_7">
+        <parent segment="38396"/>
+        <distal x="318.5" y="1352.02" z="709.532" diameter="2.95816"/>
+      </segment>
+      <segment id="38398" name = "Seg2_secden_7">
+        <parent segment="38397"/>
+        <distal x="301.789" y="1361.34" z="715.352" diameter="2.82118"/>
+      </segment>
+      <segment id="38399" name = "Seg3_secden_7">
+        <parent segment="38398"/>
+        <distal x="284.138" y="1369.35" z="720.279" diameter="2.55569"/>
+      </segment>
+      <segment id="38400" name = "Seg4_secden_7">
+        <parent segment="38399"/>
+        <distal x="273.043" y="1379.12" z="733.75" diameter="2.63458"/>
+      </segment>
+      <segment id="38401" name = "Seg5_secden_7">
+        <parent segment="38400"/>
+        <distal x="256.642" y="1387.85" z="741.151" diameter="2.98275"/>
+      </segment>
+      <segment id="38402" name = "Seg6_secden_7">
+        <parent segment="38401"/>
+        <distal x="245.527" y="1397.47" z="754.712" diameter="2.88111"/>
+      </segment>
+      <segment id="38403" name = "Seg7_secden_7">
+        <parent segment="38402"/>
+        <distal x="228.093" y="1406.16" z="759.239" diameter="2.7984"/>
+      </segment>
+      <segment id="38404" name = "Seg8_secden_7">
+        <parent segment="38403"/>
+        <distal x="213.114" y="1414.59" z="769.469" diameter="2.46709"/>
+      </segment>
+      <segment id="38405" name = "Seg9_secden_7">
+        <parent segment="38404"/>
+        <distal x="203.532" y="1431.92" z="772.266" diameter="2.74674"/>
+      </segment>
+      <segment id="38406" name = "Seg10_secden_7">
+        <parent segment="38405"/>
+        <distal x="185.605" y="1436" z="780.138" diameter="2.94558"/>
+      </segment>
+      <segment id="38407" name = "Seg11_secden_7">
+        <parent segment="38406"/>
+        <distal x="171.135" y="1444.26" z="791.199" diameter="2.43745"/>
+      </segment>
+      <segment id="38408" name = "Seg12_secden_7">
+        <parent segment="38407"/>
+        <distal x="153.879" y="1454.23" z="789.482" diameter="2.66806"/>
+      </segment>
+      <segment id="38409" name = "Seg13_secden_7">
+        <parent segment="38408"/>
+        <distal x="136.256" y="1461.87" z="795.057" diameter="2.9091"/>
+      </segment>
+      <segment id="38410" name = "Seg14_secden_7">
+        <parent segment="38409"/>
+        <distal x="121.898" y="1474.02" z="801.851" diameter="2.58122"/>
+      </segment>
+      <segment id="38411" name = "Seg15_secden_7">
+        <parent segment="38410"/>
+        <distal x="105.296" y="1483.49" z="807.744" diameter="2.71159"/>
+      </segment>
+      <segment id="38412" name = "Seg16_secden_7">
+        <parent segment="38411"/>
+        <distal x="87.9155" y="1490.28" z="814.936" diameter="2.3908"/>
+      </segment>
+      <segment id="38413" name = "Seg17_secden_7">
+        <parent segment="38412"/>
+        <distal x="70.1578" y="1499.26" z="816.943" diameter="2.58716"/>
+      </segment>
+      <segment id="38414" name = "Seg18_secden_7">
+        <parent segment="38413"/>
+        <distal x="51.2764" y="1503.85" z="821.683" diameter="2.11611"/>
+      </segment>
+      <segment id="38415" name = "Seg19_secden_7">
+        <parent segment="38414"/>
+        <distal x="32.7484" y="1511.27" z="822.988" diameter="1.72001"/>
+      </segment>
+      <segment id="38416" name = "Seg20_secden_7">
+        <parent segment="38415"/>
+        <distal x="13.3369" y="1515.96" z="824.053" diameter="2.49245"/>
+      </segment>
+      <segment id="38417" name = "Seg21_secden_7">
+        <parent segment="38416"/>
+        <distal x="-4.64345" y="1524.36" z="821.574" diameter="2.10053"/>
+      </segment>
+      <segment id="38418" name = "Seg22_secden_7">
+        <parent segment="38417"/>
+        <distal x="-22.0282" y="1533.74" z="818.432" diameter="2.52034"/>
+      </segment>
+      <segment id="38419" name = "Seg23_secden_7">
+        <parent segment="38418"/>
+        <distal x="-40.8713" y="1540.34" z="819.625" diameter="2.28849"/>
+      </segment>
+      <segment id="38420" name = "Seg24_secden_7">
+        <parent segment="38419"/>
+        <distal x="-60.2286" y="1545.12" z="818.066" diameter="2.13188"/>
+      </segment>
+      <segment id="38421" name = "Seg25_secden_7">
+        <parent segment="38420"/>
+        <distal x="-77.6237" y="1554.71" z="815.726" diameter="2.17696"/>
+      </segment>
+      <segment id="38422" name = "Seg26_secden_7">
+        <parent segment="38421"/>
+        <distal x="-96.6357" y="1555.34" z="809.55" diameter="2.49616"/>
+      </segment>
+      <segment id="38423" name = "Seg27_secden_7">
+        <parent segment="38422"/>
+        <distal x="-116.435" y="1553.72" z="807.233" diameter="2.4702"/>
+      </segment>
+      <segment id="38424" name = "Seg28_secden_7">
+        <parent segment="38423"/>
+        <distal x="-132.826" y="1565.16" z="807.893" diameter="2.24548"/>
+      </segment>
+      <segment id="38425" name = "Seg29_secden_7">
+        <parent segment="38424"/>
+        <distal x="-148.172" y="1570.07" z="796.045" diameter="1.55725"/>
+      </segment>
+      <segment id="38426" name = "Seg30_secden_7">
+        <parent segment="38425"/>
+        <distal x="-165.416" y="1576.49" z="788.204" diameter="2.04788"/>
+      </segment>
+      <segment id="38427" name = "Seg31_secden_7">
+        <parent segment="38426"/>
+        <distal x="-182.63" y="1583.36" z="780.695" diameter="2.1662"/>
+      </segment>
+      <segment id="38428" name = "Seg32_secden_7">
+        <parent segment="38427"/>
+        <distal x="-200.777" y="1586.62" z="772.946" diameter="1.63893"/>
+      </segment>
+      <segment id="38429" name = "Seg33_secden_7">
+        <parent segment="38428"/>
+        <distal x="-213.257" y="1600.89" z="766.556" diameter="1.88622"/>
+      </segment>
+      <segment id="38430" name = "Seg34_secden_7">
+        <parent segment="38429"/>
+        <distal x="-228.343" y="1606.12" z="754.513" diameter="1.84524"/>
+      </segment>
+<!-- Section: Mitral[58].secden[6] (segmentGroup: secden_6) which has 11 3D points, so 10 segment(s)-->
+      <segment id="38386" name = "Seg0_secden_6">
+        <parent segment="38333"/>
+        <proximal x="340.183" y="1330.77" z="684.508" diameter="2.86131"/>
+        <distal x="325.84" y="1328.34" z="698.234" diameter="2.59833"/>
+      </segment>
+      <segment id="38387" name = "Seg1_secden_6">
+        <parent segment="38386"/>
+        <distal x="315.149" y="1324.26" z="714.636" diameter="2.95781"/>
+      </segment>
+      <segment id="38388" name = "Seg2_secden_6">
+        <parent segment="38387"/>
+        <distal x="299.322" y="1322.42" z="726.724" diameter="2.82558"/>
+      </segment>
+      <segment id="38389" name = "Seg3_secden_6">
+        <parent segment="38388"/>
+        <distal x="284.475" y="1320.08" z="739.917" diameter="2.79042"/>
+      </segment>
+      <segment id="38390" name = "Seg4_secden_6">
+        <parent segment="38389"/>
+        <distal x="270.068" y="1318.05" z="753.641" diameter="2.96488"/>
+      </segment>
+      <segment id="38391" name = "Seg5_secden_6">
+        <parent segment="38390"/>
+        <distal x="252.833" y="1315.05" z="763.334" diameter="2.64411"/>
+      </segment>
+      <segment id="38392" name = "Seg6_secden_6">
+        <parent segment="38391"/>
+        <distal x="240.869" y="1315.03" z="779.361" diameter="2.34527"/>
+      </segment>
+      <segment id="38393" name = "Seg7_secden_6">
+        <parent segment="38392"/>
+        <distal x="224.902" y="1310.46" z="790.504" diameter="2.68075"/>
+      </segment>
+      <segment id="38394" name = "Seg8_secden_6">
+        <parent segment="38393"/>
+        <distal x="206.597" y="1308.27" z="798.259" diameter="2.73442"/>
+      </segment>
+      <segment id="38395" name = "Seg9_secden_6">
+        <parent segment="38394"/>
+        <distal x="188.31" y="1305.33" z="805.804" diameter="2.63959"/>
+      </segment>
+<!-- Section: Mitral[58].tuftden[3] (segmentGroup: tuftden_3) which has 4 3D points, so 3 segment(s)-->
+      <segment id="38736" name = "Seg0_tuftden_3">
+        <parent segment="38330"/>
+        <proximal x="529.799" y="1296.74" z="1056.94" diameter="0.8"/>
+        <distal x="541.257" y="1284.7" z="1068.06" diameter="0.8"/>
+      </segment>
+      <segment id="38737" name = "Seg1_tuftden_3">
+        <parent segment="38736"/>
+        <distal x="553.967" y="1275.12" z="1080.17" diameter="0.8"/>
+      </segment>
+      <segment id="38738" name = "Seg2_tuftden_3">
+        <parent segment="38737"/>
+        <distal x="568.33" y="1263.5" z="1087.83" diameter="0.8"/>
+      </segment>
+<!-- Section: Mitral[58].tuftden[2] (segmentGroup: tuftden_2) which has 3 3D points, so 2 segment(s)-->
+      <segment id="38734" name = "Seg0_tuftden_2">
+        <parent segment="38330"/>
+        <proximal x="529.799" y="1296.74" z="1056.94" diameter="0.8"/>
+        <distal x="522.929" y="1295.88" z="1075.7" diameter="0.8"/>
+      </segment>
+      <segment id="38735" name = "Seg1_tuftden_2">
+        <parent segment="38734"/>
+        <distal x="521.473" y="1295.56" z="1095.64" diameter="0.8"/>
+      </segment>
+<!-- Section: Mitral[58].tuftden[1] (segmentGroup: tuftden_1) which has 3 3D points, so 2 segment(s)-->
+      <segment id="38732" name = "Seg0_tuftden_1">
+        <parent segment="38330"/>
+        <proximal x="529.799" y="1296.74" z="1056.94" diameter="0.8"/>
+        <distal x="539.648" y="1308.73" z="1069.56" diameter="0.8"/>
+      </segment>
+      <segment id="38733" name = "Seg1_tuftden_1">
+        <parent segment="38732"/>
+        <distal x="538.095" y="1316.24" z="1088.03" diameter="0.8"/>
+      </segment>
+<!-- Section: Mitral[58].tuftden[0] (segmentGroup: tuftden_0) which has 3 3D points, so 2 segment(s)-->
+      <segment id="38730" name = "Seg0_tuftden_0">
+        <parent segment="38330"/>
+        <proximal x="529.799" y="1296.74" z="1056.94" diameter="0.8"/>
+        <distal x="548.252" y="1303.48" z="1053.18" diameter="0.8"/>
+      </segment>
+      <segment id="38731" name = "Seg1_tuftden_0">
+        <parent segment="38730"/>
+        <distal x="564.268" y="1313.71" z="1059.41" diameter="0.8"/>
+      </segment>
+<!-- Section: Mitral[58].secden[13] (segmentGroup: secden_13) which has 9 3D points, so 8 segment(s)-->
+      <segment id="38535" name = "Seg0_secden_13">
+        <parent segment="38352"/>
+        <proximal x="521.913" y="1366.22" z="646.853" diameter="2.5615"/>
+        <distal x="540.473" y="1362.02" z="640.698" diameter="2.729"/>
+      </segment>
+      <segment id="38536" name = "Seg1_secden_13">
+        <parent segment="38535"/>
+        <distal x="560.423" y="1360.76" z="641.324" diameter="2.63583"/>
+      </segment>
+      <segment id="38537" name = "Seg2_secden_13">
+        <parent segment="38536"/>
+        <distal x="579.809" y="1356.26" z="643.332" diameter="2.9053"/>
+      </segment>
+      <segment id="38538" name = "Seg3_secden_13">
+        <parent segment="38537"/>
+        <distal x="599.616" y="1353.5" z="643.489" diameter="2.73752"/>
+      </segment>
+      <segment id="38539" name = "Seg4_secden_13">
+        <parent segment="38538"/>
+        <distal x="617.743" y="1353.5" z="635.04" diameter="2.31857"/>
+      </segment>
+      <segment id="38540" name = "Seg5_secden_13">
+        <parent segment="38539"/>
+        <distal x="635.176" y="1352.11" z="625.334" diameter="2.88152"/>
+      </segment>
+      <segment id="38541" name = "Seg6_secden_13">
+        <parent segment="38540"/>
+        <distal x="654.912" y="1351.86" z="622.111" diameter="2.53506"/>
+      </segment>
+      <segment id="38542" name = "Seg7_secden_13">
+        <parent segment="38541"/>
+        <distal x="671.351" y="1353.45" z="610.829" diameter="2.49012"/>
+      </segment>
+<!-- Section: Mitral[58].secden[12] (segmentGroup: secden_12) which has 43 3D points, so 42 segment(s)-->
+      <segment id="38493" name = "Seg0_secden_12">
+        <parent segment="38352"/>
+        <proximal x="521.913" y="1366.22" z="646.853" diameter="2.5615"/>
+        <distal x="538.69" y="1376.79" z="649.468" diameter="2.71591"/>
+      </segment>
+      <segment id="38494" name = "Seg1_secden_12">
+        <parent segment="38493"/>
+        <distal x="548" y="1380.05" z="666.867" diameter="2.92488"/>
+      </segment>
+      <segment id="38495" name = "Seg2_secden_12">
+        <parent segment="38494"/>
+        <distal x="564.253" y="1391.68" z="666.116" diameter="2.3802"/>
+      </segment>
+      <segment id="38496" name = "Seg3_secden_12">
+        <parent segment="38495"/>
+        <distal x="581.465" y="1401.84" z="666.754" diameter="2.88594"/>
+      </segment>
+      <segment id="38497" name = "Seg4_secden_12">
+        <parent segment="38496"/>
+        <distal x="592.86" y="1417.29" z="661.129" diameter="2.99783"/>
+      </segment>
+      <segment id="38498" name = "Seg5_secden_12">
+        <parent segment="38497"/>
+        <distal x="607.999" y="1428.6" z="654.579" diameter="2.79674"/>
+      </segment>
+      <segment id="38499" name = "Seg6_secden_12">
+        <parent segment="38498"/>
+        <distal x="624.113" y="1440.44" z="654.175" diameter="2.50312"/>
+      </segment>
+      <segment id="38500" name = "Seg7_secden_12">
+        <parent segment="38499"/>
+        <distal x="642.81" y="1446.66" z="650.763" diameter="2.86015"/>
+      </segment>
+      <segment id="38501" name = "Seg8_secden_12">
+        <parent segment="38500"/>
+        <distal x="650.984" y="1463.33" z="643.327" diameter="2.17256"/>
+      </segment>
+      <segment id="38502" name = "Seg9_secden_12">
+        <parent segment="38501"/>
+        <distal x="666.475" y="1474.87" z="638.124" diameter="2.16206"/>
+      </segment>
+      <segment id="38503" name = "Seg10_secden_12">
+        <parent segment="38502"/>
+        <distal x="677.355" y="1489.81" z="630.482" diameter="2.72215"/>
+      </segment>
+      <segment id="38504" name = "Seg11_secden_12">
+        <parent segment="38503"/>
+        <distal x="691.586" y="1502.93" z="625.46" diameter="2.53246"/>
+      </segment>
+      <segment id="38505" name = "Seg12_secden_12">
+        <parent segment="38504"/>
+        <distal x="703.865" y="1518.42" z="622.424" diameter="2.29158"/>
+      </segment>
+      <segment id="38506" name = "Seg13_secden_12">
+        <parent segment="38505"/>
+        <distal x="717.647" y="1530.46" z="614.346" diameter="2.68063"/>
+      </segment>
+      <segment id="38507" name = "Seg14_secden_12">
+        <parent segment="38506"/>
+        <distal x="729.952" y="1540.75" z="602.404" diameter="2.4587"/>
+      </segment>
+      <segment id="38508" name = "Seg15_secden_12">
+        <parent segment="38507"/>
+        <distal x="746.229" y="1550.2" z="595.646" diameter="2.29661"/>
+      </segment>
+      <segment id="38509" name = "Seg16_secden_12">
+        <parent segment="38508"/>
+        <distal x="756.466" y="1557.91" z="580.287" diameter="2.37191"/>
+      </segment>
+      <segment id="38510" name = "Seg17_secden_12">
+        <parent segment="38509"/>
+        <distal x="769.457" y="1564.38" z="566.526" diameter="1.55783"/>
+      </segment>
+      <segment id="38511" name = "Seg18_secden_12">
+        <parent segment="38510"/>
+        <distal x="776.764" y="1571.74" z="549.425" diameter="2.30244"/>
+      </segment>
+      <segment id="38512" name = "Seg19_secden_12">
+        <parent segment="38511"/>
+        <distal x="783.895" y="1581.24" z="533.339" diameter="2.10403"/>
+      </segment>
+      <segment id="38513" name = "Seg20_secden_12">
+        <parent segment="38512"/>
+        <distal x="795.039" y="1582.67" z="516.793" diameter="2.32125"/>
+      </segment>
+      <segment id="38514" name = "Seg21_secden_12">
+        <parent segment="38513"/>
+        <distal x="803.112" y="1591.13" z="500.568" diameter="2.37155"/>
+      </segment>
+      <segment id="38515" name = "Seg22_secden_12">
+        <parent segment="38514"/>
+        <distal x="809.334" y="1595.09" z="481.978" diameter="2.08626"/>
+      </segment>
+      <segment id="38516" name = "Seg23_secden_12">
+        <parent segment="38515"/>
+        <distal x="819.665" y="1602.56" z="466.567" diameter="1.72194"/>
+      </segment>
+      <segment id="38517" name = "Seg24_secden_12">
+        <parent segment="38516"/>
+        <distal x="826.051" y="1610.61" z="449.407" diameter="2.60733"/>
+      </segment>
+      <segment id="38518" name = "Seg25_secden_12">
+        <parent segment="38517"/>
+        <distal x="832.91" y="1617.01" z="431.747" diameter="1.90075"/>
+      </segment>
+      <segment id="38519" name = "Seg26_secden_12">
+        <parent segment="38518"/>
+        <distal x="839.621" y="1622.98" z="413.877" diameter="2.02726"/>
+      </segment>
+      <segment id="38520" name = "Seg27_secden_12">
+        <parent segment="38519"/>
+        <distal x="845.204" y="1631.77" z="396.802" diameter="2.2196"/>
+      </segment>
+      <segment id="38521" name = "Seg28_secden_12">
+        <parent segment="38520"/>
+        <distal x="855.924" y="1639.64" z="381.859" diameter="2.00639"/>
+      </segment>
+      <segment id="38522" name = "Seg29_secden_12">
+        <parent segment="38521"/>
+        <distal x="861.694" y="1646.35" z="363.926" diameter="1.80028"/>
+      </segment>
+      <segment id="38523" name = "Seg30_secden_12">
+        <parent segment="38522"/>
+        <distal x="867.418" y="1650.9" z="345.31" diameter="1.83538"/>
+      </segment>
+      <segment id="38524" name = "Seg31_secden_12">
+        <parent segment="38523"/>
+        <distal x="878.317" y="1658.97" z="330.609" diameter="1.98391"/>
+      </segment>
+      <segment id="38525" name = "Seg32_secden_12">
+        <parent segment="38524"/>
+        <distal x="884.488" y="1666.27" z="313.042" diameter="1.61019"/>
+      </segment>
+      <segment id="38526" name = "Seg33_secden_12">
+        <parent segment="38525"/>
+        <distal x="887.66" y="1669.64" z="293.585" diameter="1.88812"/>
+      </segment>
+      <segment id="38527" name = "Seg34_secden_12">
+        <parent segment="38526"/>
+        <distal x="891.178" y="1673.34" z="274.248" diameter="2.0768"/>
+      </segment>
+      <segment id="38528" name = "Seg35_secden_12">
+        <parent segment="38527"/>
+        <distal x="900.895" y="1683.04" z="259.707" diameter="1.78205"/>
+      </segment>
+      <segment id="38529" name = "Seg36_secden_12">
+        <parent segment="38528"/>
+        <distal x="903.691" y="1688.26" z="240.602" diameter="1.78139"/>
+      </segment>
+      <segment id="38530" name = "Seg37_secden_12">
+        <parent segment="38529"/>
+        <distal x="908.19" y="1693.96" z="221.969" diameter="1.62603"/>
+      </segment>
+      <segment id="38531" name = "Seg38_secden_12">
+        <parent segment="38530"/>
+        <distal x="910.676" y="1698.21" z="202.584" diameter="1.64471"/>
+      </segment>
+      <segment id="38532" name = "Seg39_secden_12">
+        <parent segment="38531"/>
+        <distal x="913.678" y="1705.92" z="184.374" diameter="1.68679"/>
+      </segment>
+      <segment id="38533" name = "Seg40_secden_12">
+        <parent segment="38532"/>
+        <distal x="916.708" y="1713.87" z="166.276" diameter="1.44304"/>
+      </segment>
+      <segment id="38534" name = "Seg41_secden_12">
+        <parent segment="38533"/>
+        <distal x="917.365" y="1717.98" z="146.712" diameter="1.41885"/>
+      </segment>
+<!-- Section: Mitral[58].secden[19] (segmentGroup: secden_19) which has 7 3D points, so 6 segment(s)-->
+      <segment id="38644" name = "Seg0_secden_19">
+        <parent segment="38443"/>
+        <proximal x="366.204" y="1037.13" z="773.301" diameter="2.35003"/>
+        <distal x="365.587" y="1017.16" z="774.387" diameter="2.5138"/>
+      </segment>
+      <segment id="38645" name = "Seg1_secden_19">
+        <parent segment="38644"/>
+        <distal x="360.403" y="998.435" z="769.662" diameter="2.33691"/>
+      </segment>
+      <segment id="38646" name = "Seg2_secden_19">
+        <parent segment="38645"/>
+        <distal x="355.405" y="979.093" z="770.622" diameter="2.13888"/>
+      </segment>
+      <segment id="38647" name = "Seg3_secden_19">
+        <parent segment="38646"/>
+        <distal x="347.423" y="960.84" z="768.859" diameter="2.09996"/>
+      </segment>
+      <segment id="38648" name = "Seg4_secden_19">
+        <parent segment="38647"/>
+        <distal x="341.63" y="942.411" z="763.682" diameter="1.82315"/>
+      </segment>
+      <segment id="38649" name = "Seg5_secden_19">
+        <parent segment="38648"/>
+        <distal x="331.434" y="925.632" z="767.493" diameter="2.01256"/>
+      </segment>
+<!-- Section: Mitral[58].secden[18] (segmentGroup: secden_18) which has 31 3D points, so 30 segment(s)-->
+      <segment id="38614" name = "Seg0_secden_18">
+        <parent segment="38443"/>
+        <proximal x="366.204" y="1037.13" z="773.301" diameter="2.35003"/>
+        <distal x="364.869" y="1017.27" z="771.328" diameter="2.66008"/>
+      </segment>
+      <segment id="38615" name = "Seg1_secden_18">
+        <parent segment="38614"/>
+        <distal x="371.391" y="998.361" z="771.266" diameter="2.71692"/>
+      </segment>
+      <segment id="38616" name = "Seg2_secden_18">
+        <parent segment="38615"/>
+        <distal x="377.478" y="980.536" z="764.542" diameter="2.47195"/>
+      </segment>
+      <segment id="38617" name = "Seg3_secden_18">
+        <parent segment="38616"/>
+        <distal x="381.459" y="961.652" z="759.295" diameter="2.39216"/>
+      </segment>
+      <segment id="38618" name = "Seg4_secden_18">
+        <parent segment="38617"/>
+        <distal x="386.194" y="943.291" z="752.935" diameter="2.27323"/>
+      </segment>
+      <segment id="38619" name = "Seg5_secden_18">
+        <parent segment="38618"/>
+        <distal x="382.051" y="924.735" z="746.729" diameter="2.05592"/>
+      </segment>
+      <segment id="38620" name = "Seg6_secden_18">
+        <parent segment="38619"/>
+        <distal x="382.692" y="905.84" z="740.206" diameter="2.83525"/>
+      </segment>
+      <segment id="38621" name = "Seg7_secden_18">
+        <parent segment="38620"/>
+        <distal x="390.746" y="888.883" z="733.304" diameter="1.97899"/>
+      </segment>
+      <segment id="38622" name = "Seg8_secden_18">
+        <parent segment="38621"/>
+        <distal x="384.264" y="871.155" z="726.695" diameter="2.20957"/>
+      </segment>
+      <segment id="38623" name = "Seg9_secden_18">
+        <parent segment="38622"/>
+        <distal x="398.298" y="859.209" z="718.927" diameter="2.09254"/>
+      </segment>
+      <segment id="38624" name = "Seg10_secden_18">
+        <parent segment="38623"/>
+        <distal x="402.583" y="841.38" z="710.942" diameter="2.23751"/>
+      </segment>
+      <segment id="38625" name = "Seg11_secden_18">
+        <parent segment="38624"/>
+        <distal x="407.226" y="823.691" z="702.846" diameter="2.1706"/>
+      </segment>
+      <segment id="38626" name = "Seg12_secden_18">
+        <parent segment="38625"/>
+        <distal x="415.673" y="807.854" z="694.024" diameter="2.51468"/>
+      </segment>
+      <segment id="38627" name = "Seg13_secden_18">
+        <parent segment="38626"/>
+        <distal x="417.861" y="791.455" z="682.785" diameter="1.63614"/>
+      </segment>
+      <segment id="38628" name = "Seg14_secden_18">
+        <parent segment="38627"/>
+        <distal x="416.872" y="774.09" z="672.912" diameter="2.09443"/>
+      </segment>
+      <segment id="38629" name = "Seg15_secden_18">
+        <parent segment="38628"/>
+        <distal x="424.985" y="759.087" z="662.468" diameter="1.84736"/>
+      </segment>
+      <segment id="38630" name = "Seg16_secden_18">
+        <parent segment="38629"/>
+        <distal x="424.896" y="742.388" z="651.462" diameter="1.73472"/>
+      </segment>
+      <segment id="38631" name = "Seg17_secden_18">
+        <parent segment="38630"/>
+        <distal x="424.968" y="725.963" z="640.05" diameter="1.78405"/>
+      </segment>
+      <segment id="38632" name = "Seg18_secden_18">
+        <parent segment="38631"/>
+        <distal x="427.455" y="707.972" z="631.675" diameter="2.26567"/>
+      </segment>
+      <segment id="38633" name = "Seg19_secden_18">
+        <parent segment="38632"/>
+        <distal x="426.659" y="690.333" z="622.282" diameter="1.63688"/>
+      </segment>
+      <segment id="38634" name = "Seg20_secden_18">
+        <parent segment="38633"/>
+        <distal x="428.33" y="677.74" z="606.834" diameter="2.18335"/>
+      </segment>
+      <segment id="38635" name = "Seg21_secden_18">
+        <parent segment="38634"/>
+        <distal x="436.775" y="662.268" z="597.384" diameter="1.90078"/>
+      </segment>
+      <segment id="38636" name = "Seg22_secden_18">
+        <parent segment="38635"/>
+        <distal x="438.434" y="649.381" z="582.18" diameter="2.02217"/>
+      </segment>
+      <segment id="38637" name = "Seg23_secden_18">
+        <parent segment="38636"/>
+        <distal x="441.307" y="632.237" z="572.289" diameter="1.86832"/>
+      </segment>
+      <segment id="38638" name = "Seg24_secden_18">
+        <parent segment="38637"/>
+        <distal x="445.553" y="619.85" z="557.172" diameter="1.67584"/>
+      </segment>
+      <segment id="38639" name = "Seg25_secden_18">
+        <parent segment="38638"/>
+        <distal x="445.939" y="606.628" z="542.171" diameter="1.70297"/>
+      </segment>
+      <segment id="38640" name = "Seg26_secden_18">
+        <parent segment="38639"/>
+        <distal x="438.136" y="592.826" z="529.98" diameter="2.18317"/>
+      </segment>
+      <segment id="38641" name = "Seg27_secden_18">
+        <parent segment="38640"/>
+        <distal x="439.552" y="577.231" z="517.539" diameter="1.65066"/>
+      </segment>
+      <segment id="38642" name = "Seg28_secden_18">
+        <parent segment="38641"/>
+        <distal x="440.226" y="563.266" z="503.238" diameter="1.7067"/>
+      </segment>
+      <segment id="38643" name = "Seg29_secden_18">
+        <parent segment="38642"/>
+        <distal x="441.558" y="546.992" z="491.688" diameter="1.69814"/>
+      </segment>
+<!-- Section: Mitral[58].secden[15] (segmentGroup: secden_15) which has 29 3D points, so 28 segment(s)-->
+      <segment id="38570" name = "Seg0_secden_15">
+        <parent segment="38395"/>
+        <proximal x="188.31" y="1305.33" z="805.804" diameter="2.63959"/>
+        <distal x="175.912" y="1304.8" z="821.489" diameter="2.20841"/>
+      </segment>
+      <segment id="38571" name = "Seg1_secden_15">
+        <parent segment="38570"/>
+        <distal x="157.321" y="1301.61" z="828.138" diameter="2.04517"/>
+      </segment>
+      <segment id="38572" name = "Seg2_secden_15">
+        <parent segment="38571"/>
+        <distal x="138.13" y="1306.9" z="830.084" diameter="2.90728"/>
+      </segment>
+      <segment id="38573" name = "Seg3_secden_15">
+        <parent segment="38572"/>
+        <distal x="120.709" y="1304.98" z="839.719" diameter="2.4289"/>
+      </segment>
+      <segment id="38574" name = "Seg4_secden_15">
+        <parent segment="38573"/>
+        <distal x="100.948" y="1307.84" z="840.876" diameter="2.38346"/>
+      </segment>
+      <segment id="38575" name = "Seg5_secden_15">
+        <parent segment="38574"/>
+        <distal x="81.1127" y="1306.18" z="842.825" diameter="2.62891"/>
+      </segment>
+      <segment id="38576" name = "Seg6_secden_15">
+        <parent segment="38575"/>
+        <distal x="62.0348" y="1303.13" z="847.997" diameter="2.20905"/>
+      </segment>
+      <segment id="38577" name = "Seg7_secden_15">
+        <parent segment="38576"/>
+        <distal x="42.4475" y="1302.88" z="852.031" diameter="2.27939"/>
+      </segment>
+      <segment id="38578" name = "Seg8_secden_15">
+        <parent segment="38577"/>
+        <distal x="23.582" y="1297.72" z="847.854" diameter="1.92881"/>
+      </segment>
+      <segment id="38579" name = "Seg9_secden_15">
+        <parent segment="38578"/>
+        <distal x="3.87654" y="1298.64" z="851.145" diameter="2.32249"/>
+      </segment>
+      <segment id="38580" name = "Seg10_secden_15">
+        <parent segment="38579"/>
+        <distal x="-15.8699" y="1295.5" z="851.557" diameter="2.50462"/>
+      </segment>
+      <segment id="38581" name = "Seg11_secden_15">
+        <parent segment="38580"/>
+        <distal x="-34.4739" y="1299.78" z="845.598" diameter="2.26427"/>
+      </segment>
+      <segment id="38582" name = "Seg12_secden_15">
+        <parent segment="38581"/>
+        <distal x="-53.954" y="1297.39" z="841.75" diameter="2.39663"/>
+      </segment>
+      <segment id="38583" name = "Seg13_secden_15">
+        <parent segment="38582"/>
+        <distal x="-72.4368" y="1302.53" z="836.092" diameter="2.11609"/>
+      </segment>
+      <segment id="38584" name = "Seg14_secden_15">
+        <parent segment="38583"/>
+        <distal x="-90.9419" y="1309.31" z="832.699" diameter="2.00348"/>
+      </segment>
+      <segment id="38585" name = "Seg15_secden_15">
+        <parent segment="38584"/>
+        <distal x="-110.637" y="1310.6" z="829.467" diameter="1.8988"/>
+      </segment>
+      <segment id="38586" name = "Seg16_secden_15">
+        <parent segment="38585"/>
+        <distal x="-130.576" y="1309.81" z="830.816" diameter="1.81334"/>
+      </segment>
+      <segment id="38587" name = "Seg17_secden_15">
+        <parent segment="38586"/>
+        <distal x="-150.52" y="1308.36" z="830.438" diameter="2.46141"/>
+      </segment>
+      <segment id="38588" name = "Seg18_secden_15">
+        <parent segment="38587"/>
+        <distal x="-168.739" y="1301.13" z="826.465" diameter="1.92501"/>
+      </segment>
+      <segment id="38589" name = "Seg19_secden_15">
+        <parent segment="38588"/>
+        <distal x="-187.098" y="1304.09" z="819.106" diameter="2.25287"/>
+      </segment>
+      <segment id="38590" name = "Seg20_secden_15">
+        <parent segment="38589"/>
+        <distal x="-205.913" y="1303.43" z="812.355" diameter="2.30839"/>
+      </segment>
+      <segment id="38591" name = "Seg21_secden_15">
+        <parent segment="38590"/>
+        <distal x="-224.896" y="1303.64" z="806.064" diameter="2.02947"/>
+      </segment>
+      <segment id="38592" name = "Seg22_secden_15">
+        <parent segment="38591"/>
+        <distal x="-243.316" y="1301.82" z="798.487" diameter="2.02439"/>
+      </segment>
+      <segment id="38593" name = "Seg23_secden_15">
+        <parent segment="38592"/>
+        <distal x="-262.073" y="1303.68" z="791.801" diameter="1.83447"/>
+      </segment>
+      <segment id="38594" name = "Seg24_secden_15">
+        <parent segment="38593"/>
+        <distal x="-279.449" y="1301.36" z="782.174" diameter="1.67103"/>
+      </segment>
+      <segment id="38595" name = "Seg25_secden_15">
+        <parent segment="38594"/>
+        <distal x="-299.001" y="1297.27" z="781.172" diameter="1.94635"/>
+      </segment>
+      <segment id="38596" name = "Seg26_secden_15">
+        <parent segment="38595"/>
+        <distal x="-315.256" y="1296.96" z="769.524" diameter="2.20262"/>
+      </segment>
+      <segment id="38597" name = "Seg27_secden_15">
+        <parent segment="38596"/>
+        <distal x="-333.225" y="1296.89" z="760.742" diameter="2.11471"/>
+      </segment>
+<!-- Section: Mitral[58].secden[14] (segmentGroup: secden_14) which has 28 3D points, so 27 segment(s)-->
+      <segment id="38543" name = "Seg0_secden_14">
+        <parent segment="38395"/>
+        <proximal x="188.31" y="1305.33" z="805.804" diameter="2.63959"/>
+        <distal x="174.299" y="1299.06" z="818.625" diameter="2.39252"/>
+      </segment>
+      <segment id="38544" name = "Seg1_secden_14">
+        <parent segment="38543"/>
+        <distal x="159.339" y="1292.55" z="830.191" diameter="1.83409"/>
+      </segment>
+      <segment id="38545" name = "Seg2_secden_14">
+        <parent segment="38544"/>
+        <distal x="143.749" y="1280.69" z="834.245" diameter="2.34825"/>
+      </segment>
+      <segment id="38546" name = "Seg3_secden_14">
+        <parent segment="38545"/>
+        <distal x="131.843" y="1274.35" z="849.008" diameter="2.53314"/>
+      </segment>
+      <segment id="38547" name = "Seg4_secden_14">
+        <parent segment="38546"/>
+        <distal x="113.548" y="1267.74" z="853.665" diameter="2.35467"/>
+      </segment>
+      <segment id="38548" name = "Seg5_secden_14">
+        <parent segment="38547"/>
+        <distal x="94.7489" y="1262.35" z="857.85" diameter="2.05772"/>
+      </segment>
+      <segment id="38549" name = "Seg6_secden_14">
+        <parent segment="38548"/>
+        <distal x="78.0758" y="1251.58" z="855.37" diameter="2.13228"/>
+      </segment>
+      <segment id="38550" name = "Seg7_secden_14">
+        <parent segment="38549"/>
+        <distal x="59.0509" y="1245.8" z="857.506" diameter="2.31511"/>
+      </segment>
+      <segment id="38551" name = "Seg8_secden_14">
+        <parent segment="38550"/>
+        <distal x="44.4065" y="1240.39" z="870.006" diameter="1.89191"/>
+      </segment>
+      <segment id="38552" name = "Seg9_secden_14">
+        <parent segment="38551"/>
+        <distal x="29.7467" y="1227.77" z="864.909" diameter="2.59116"/>
+      </segment>
+      <segment id="38553" name = "Seg10_secden_14">
+        <parent segment="38552"/>
+        <distal x="10.1858" y="1224.94" z="867.969" diameter="1.96181"/>
+      </segment>
+      <segment id="38554" name = "Seg11_secden_14">
+        <parent segment="38553"/>
+        <distal x="-5.87797" y="1215.04" z="861.343" diameter="2.74637"/>
+      </segment>
+      <segment id="38555" name = "Seg12_secden_14">
+        <parent segment="38554"/>
+        <distal x="-24.3912" y="1209.35" z="856.361" diameter="1.89091"/>
+      </segment>
+      <segment id="38556" name = "Seg13_secden_14">
+        <parent segment="38555"/>
+        <distal x="-40.3454" y="1197.55" z="853.861" diameter="2.49649"/>
+      </segment>
+      <segment id="38557" name = "Seg14_secden_14">
+        <parent segment="38556"/>
+        <distal x="-57.6923" y="1188.06" z="850.858" diameter="2.18905"/>
+      </segment>
+      <segment id="38558" name = "Seg15_secden_14">
+        <parent segment="38557"/>
+        <distal x="-74.4263" y="1177.12" z="850.313" diameter="2.29277"/>
+      </segment>
+      <segment id="38559" name = "Seg16_secden_14">
+        <parent segment="38558"/>
+        <distal x="-90.7619" y="1171.51" z="840.227" diameter="1.95397"/>
+      </segment>
+      <segment id="38560" name = "Seg17_secden_14">
+        <parent segment="38559"/>
+        <distal x="-107.606" y="1162.01" z="835.132" diameter="2.33213"/>
+      </segment>
+      <segment id="38561" name = "Seg18_secden_14">
+        <parent segment="38560"/>
+        <distal x="-121.735" y="1153.23" z="824.025" diameter="1.86003"/>
+      </segment>
+      <segment id="38562" name = "Seg19_secden_14">
+        <parent segment="38561"/>
+        <distal x="-136.576" y="1142.05" z="816.63" diameter="2.04227"/>
+      </segment>
+      <segment id="38563" name = "Seg20_secden_14">
+        <parent segment="38562"/>
+        <distal x="-151.065" y="1128.67" z="813.294" diameter="1.89255"/>
+      </segment>
+      <segment id="38564" name = "Seg21_secden_14">
+        <parent segment="38563"/>
+        <distal x="-167.457" y="1120.44" z="805.321" diameter="2.12306"/>
+      </segment>
+      <segment id="38565" name = "Seg22_secden_14">
+        <parent segment="38564"/>
+        <distal x="-180.502" y="1107.46" z="797.491" diameter="2.02253"/>
+      </segment>
+      <segment id="38566" name = "Seg23_secden_14">
+        <parent segment="38565"/>
+        <distal x="-195.215" y="1095.08" z="791.984" diameter="1.87863"/>
+      </segment>
+      <segment id="38567" name = "Seg24_secden_14">
+        <parent segment="38566"/>
+        <distal x="-213.925" y="1092.95" z="785.249" diameter="1.83506"/>
+      </segment>
+      <segment id="38568" name = "Seg25_secden_14">
+        <parent segment="38567"/>
+        <distal x="-224.406" y="1081.27" z="772.85" diameter="1.83167"/>
+      </segment>
+      <segment id="38569" name = "Seg26_secden_14">
+        <parent segment="38568"/>
+        <distal x="-235.396" y="1066.09" z="765.868" diameter="2.17012"/>
+      </segment>
+<!-- Section: Mitral[58].secden[17] (segmentGroup: secden_17) which has 14 3D points, so 13 segment(s)-->
+      <segment id="38601" name = "Seg0_secden_17">
+        <parent segment="38542"/>
+        <proximal x="671.351" y="1353.45" z="610.829" diameter="2.49012"/>
+        <distal x="689.57" y="1347.11" z="605.546" diameter="2.28032"/>
+      </segment>
+      <segment id="38602" name = "Seg1_secden_17">
+        <parent segment="38601"/>
+        <distal x="707.962" y="1341.96" z="599.616" diameter="2.5832"/>
+      </segment>
+      <segment id="38603" name = "Seg2_secden_17">
+        <parent segment="38602"/>
+        <distal x="725.181" y="1340.3" z="589.578" diameter="2.6829"/>
+      </segment>
+      <segment id="38604" name = "Seg3_secden_17">
+        <parent segment="38603"/>
+        <distal x="744.255" y="1336.08" z="585.285" diameter="2.6624"/>
+      </segment>
+      <segment id="38605" name = "Seg4_secden_17">
+        <parent segment="38604"/>
+        <distal x="759.321" y="1329.83" z="573.712" diameter="2.53352"/>
+      </segment>
+      <segment id="38606" name = "Seg5_secden_17">
+        <parent segment="38605"/>
+        <distal x="775.577" y="1326.14" z="562.662" diameter="2.78301"/>
+      </segment>
+      <segment id="38607" name = "Seg6_secden_17">
+        <parent segment="38606"/>
+        <distal x="790.999" y="1324.97" z="549.982" diameter="2.67595"/>
+      </segment>
+      <segment id="38608" name = "Seg7_secden_17">
+        <parent segment="38607"/>
+        <distal x="804.342" y="1316.17" z="537.961" diameter="2.57826"/>
+      </segment>
+      <segment id="38609" name = "Seg8_secden_17">
+        <parent segment="38608"/>
+        <distal x="821.396" y="1314.64" z="527.625" diameter="2.21111"/>
+      </segment>
+      <segment id="38610" name = "Seg9_secden_17">
+        <parent segment="38609"/>
+        <distal x="824.698" y="1313.35" z="507.941" diameter="2.0322"/>
+      </segment>
+      <segment id="38611" name = "Seg10_secden_17">
+        <parent segment="38610"/>
+        <distal x="832.692" y="1307.97" z="490.418" diameter="2.12475"/>
+      </segment>
+      <segment id="38612" name = "Seg11_secden_17">
+        <parent segment="38611"/>
+        <distal x="847.09" y="1300.9" z="478.467" diameter="2.36314"/>
+      </segment>
+      <segment id="38613" name = "Seg12_secden_17">
+        <parent segment="38612"/>
+        <distal x="856.971" y="1301.5" z="461.088" diameter="1.72005"/>
+      </segment>
+<!-- Section: Mitral[58].secden[16] (segmentGroup: secden_16) which has 4 3D points, so 3 segment(s)-->
+      <segment id="38598" name = "Seg0_secden_16">
+        <parent segment="38542"/>
+        <proximal x="671.351" y="1353.45" z="610.829" diameter="2.49012"/>
+        <distal x="687.664" y="1363.03" z="604.344" diameter="2.8652"/>
+      </segment>
+      <segment id="38599" name = "Seg1_secden_16">
+        <parent segment="38598"/>
+        <distal x="697.134" y="1379.47" z="598.027" diameter="2.49015"/>
+      </segment>
+      <segment id="38600" name = "Seg2_secden_16">
+        <parent segment="38599"/>
+        <distal x="715.264" y="1380.3" z="589.622" diameter="2.42587"/>
+      </segment>
+<!-- Section: Mitral[58].secden[23] (segmentGroup: secden_23) which has 10 3D points, so 9 segment(s)-->
+      <segment id="38693" name = "Seg0_secden_23">
+        <parent segment="38649"/>
+        <proximal x="331.434" y="925.632" z="767.493" diameter="2.01256"/>
+        <distal x="323.428" y="907.425" z="769.594" diameter="2.15978"/>
+      </segment>
+      <segment id="38694" name = "Seg1_secden_23">
+        <parent segment="38693"/>
+        <distal x="315.69" y="889.477" z="765.353" diameter="2.1769"/>
+      </segment>
+      <segment id="38695" name = "Seg2_secden_23">
+        <parent segment="38694"/>
+        <distal x="307.12" y="871.423" z="766.132" diameter="2.1115"/>
+      </segment>
+      <segment id="38696" name = "Seg3_secden_23">
+        <parent segment="38695"/>
+        <distal x="303.518" y="853.238" z="773.637" diameter="1.71459"/>
+      </segment>
+      <segment id="38697" name = "Seg4_secden_23">
+        <parent segment="38696"/>
+        <distal x="296.901" y="834.364" z="773.628" diameter="2.53192"/>
+      </segment>
+      <segment id="38698" name = "Seg5_secden_23">
+        <parent segment="38697"/>
+        <distal x="287.842" y="816.624" z="771.828" diameter="2.37823"/>
+      </segment>
+      <segment id="38699" name = "Seg6_secden_23">
+        <parent segment="38698"/>
+        <distal x="279.017" y="798.97" z="768.6" diameter="1.86677"/>
+      </segment>
+      <segment id="38700" name = "Seg7_secden_23">
+        <parent segment="38699"/>
+        <distal x="272.575" y="780.519" z="764.346" diameter="2.43208"/>
+      </segment>
+      <segment id="38701" name = "Seg8_secden_23">
+        <parent segment="38700"/>
+        <distal x="262.644" y="763.299" z="762.144" diameter="1.87849"/>
+      </segment>
+<!-- Section: Mitral[58].secden[22] (segmentGroup: secden_22) which has 2 3D points, so 1 segment(s)-->
+      <segment id="38692" name = "Seg0_secden_22">
+        <parent segment="38649"/>
+        <proximal x="331.434" y="925.632" z="767.493" diameter="2.01256"/>
+        <distal x="332.964" y="906.672" z="761.315" diameter="2.16608"/>
+      </segment>
+<!-- Section: Mitral[58].secden[27] (segmentGroup: secden_27) which has 2 3D points, so 1 segment(s)-->
+      <segment id="38727" name = "Seg0_secden_27">
+        <parent segment="38643"/>
+        <proximal x="441.558" y="546.992" z="491.688" diameter="1.69814"/>
+        <distal x="441.336" y="532.383" z="478.031" diameter="1.5759"/>
+      </segment>
+<!-- Section: Mitral[58].secden[26] (segmentGroup: secden_26) which has 2 3D points, so 1 segment(s)-->
+      <segment id="38726" name = "Seg0_secden_26">
+        <parent segment="38643"/>
+        <proximal x="441.558" y="546.992" z="491.688" diameter="1.69814"/>
+        <distal x="448.488" y="538.439" z="474.99" diameter="1.6871"/>
+      </segment>
+<!-- Section: Mitral[58].secden[25] (segmentGroup: secden_25) which has 14 3D points, so 13 segment(s)-->
+      <segment id="38713" name = "Seg0_secden_25">
+        <parent segment="38569"/>
+        <proximal x="-235.396" y="1066.09" z="765.868" diameter="2.17012"/>
+        <distal x="-255.383" y="1065.42" z="765.601" diameter="1.85775"/>
+      </segment>
+      <segment id="38714" name = "Seg1_secden_25">
+        <parent segment="38713"/>
+        <distal x="-274.74" y="1064.63" z="760.635" diameter="2.03378"/>
+      </segment>
+      <segment id="38715" name = "Seg2_secden_25">
+        <parent segment="38714"/>
+        <distal x="-292.336" y="1062.04" z="751.486" diameter="1.76393"/>
+      </segment>
+      <segment id="38716" name = "Seg3_secden_25">
+        <parent segment="38715"/>
+        <distal x="-309.668" y="1061.64" z="741.513" diameter="1.77033"/>
+      </segment>
+      <segment id="38717" name = "Seg4_secden_25">
+        <parent segment="38716"/>
+        <distal x="-327.563" y="1062.73" z="732.65" diameter="1.74854"/>
+      </segment>
+      <segment id="38718" name = "Seg5_secden_25">
+        <parent segment="38717"/>
+        <distal x="-344.792" y="1062.89" z="722.495" diameter="1.47854"/>
+      </segment>
+      <segment id="38719" name = "Seg6_secden_25">
+        <parent segment="38718"/>
+        <distal x="-363.693" y="1064.87" z="716.258" diameter="1.42527"/>
+      </segment>
+      <segment id="38720" name = "Seg7_secden_25">
+        <parent segment="38719"/>
+        <distal x="-379.123" y="1057.78" z="705.691" diameter="1.70901"/>
+      </segment>
+      <segment id="38721" name = "Seg8_secden_25">
+        <parent segment="38720"/>
+        <distal x="-396.39" y="1059.76" z="695.794" diameter="1.47023"/>
+      </segment>
+      <segment id="38722" name = "Seg9_secden_25">
+        <parent segment="38721"/>
+        <distal x="-412.212" y="1056.69" z="683.951" diameter="1.26263"/>
+      </segment>
+      <segment id="38723" name = "Seg10_secden_25">
+        <parent segment="38722"/>
+        <distal x="-427.47" y="1052.16" z="671.84" diameter="1.75221"/>
+      </segment>
+      <segment id="38724" name = "Seg11_secden_25">
+        <parent segment="38723"/>
+        <distal x="-441.239" y="1044.69" z="659.41" diameter="1.63803"/>
+      </segment>
+      <segment id="38725" name = "Seg12_secden_25">
+        <parent segment="38724"/>
+        <distal x="-456.622" y="1038.89" z="648.016" diameter="1.75022"/>
+      </segment>
+<!-- Section: Mitral[58].secden[24] (segmentGroup: secden_24) which has 12 3D points, so 11 segment(s)-->
+      <segment id="38702" name = "Seg0_secden_24">
+        <parent segment="38569"/>
+        <proximal x="-235.396" y="1066.09" z="765.868" diameter="2.17012"/>
+        <distal x="-254.597" y="1067.5" z="760.455" diameter="1.57863"/>
+      </segment>
+      <segment id="38703" name = "Seg1_secden_24">
+        <parent segment="38702"/>
+        <distal x="-262.474" y="1052.63" z="749.65" diameter="1.85689"/>
+      </segment>
+      <segment id="38704" name = "Seg2_secden_24">
+        <parent segment="38703"/>
+        <distal x="-275.27" y="1038.69" z="743.175" diameter="1.52745"/>
+      </segment>
+      <segment id="38705" name = "Seg3_secden_24">
+        <parent segment="38704"/>
+        <distal x="-287.465" y="1026.27" z="733.323" diameter="2.12366"/>
+      </segment>
+      <segment id="38706" name = "Seg4_secden_24">
+        <parent segment="38705"/>
+        <distal x="-302.025" y="1014.84" z="725.76" diameter="1.73311"/>
+      </segment>
+      <segment id="38707" name = "Seg5_secden_24">
+        <parent segment="38706"/>
+        <distal x="-314.501" y="1010.14" z="710.849" diameter="1.6782"/>
+      </segment>
+      <segment id="38708" name = "Seg6_secden_24">
+        <parent segment="38707"/>
+        <distal x="-326.468" y="997.12" z="701.512" diameter="1.7858"/>
+      </segment>
+      <segment id="38709" name = "Seg7_secden_24">
+        <parent segment="38708"/>
+        <distal x="-343.137" y="988.065" z="695.175" diameter="1.35413"/>
+      </segment>
+      <segment id="38710" name = "Seg8_secden_24">
+        <parent segment="38709"/>
+        <distal x="-353.65" y="974.993" z="684.284" diameter="1.88488"/>
+      </segment>
+      <segment id="38711" name = "Seg9_secden_24">
+        <parent segment="38710"/>
+        <distal x="-360.251" y="961.28" z="671.308" diameter="1.65054"/>
+      </segment>
+      <segment id="38712" name = "Seg10_secden_24">
+        <parent segment="38711"/>
+        <distal x="-373.559" y="947.96" z="664.565" diameter="1.76965"/>
+      </segment>
+<!-- Section: Mitral[58].secden[21] (segmentGroup: secden_21) which has 22 3D points, so 21 segment(s)-->
+      <segment id="38671" name = "Seg0_secden_21">
+        <parent segment="38600"/>
+        <proximal x="715.264" y="1380.3" z="589.622" diameter="2.42587"/>
+        <distal x="730.984" y="1382.17" z="577.401" diameter="2.79624"/>
+      </segment>
+      <segment id="38672" name = "Seg1_secden_21">
+        <parent segment="38671"/>
+        <distal x="746.895" y="1384.85" z="565.583" diameter="2.52586"/>
+      </segment>
+      <segment id="38673" name = "Seg2_secden_21">
+        <parent segment="38672"/>
+        <distal x="763.525" y="1388.64" z="555.135" diameter="2.36216"/>
+      </segment>
+      <segment id="38674" name = "Seg3_secden_21">
+        <parent segment="38673"/>
+        <distal x="779.954" y="1390.9" z="543.958" diameter="1.84214"/>
+      </segment>
+      <segment id="38675" name = "Seg4_secden_21">
+        <parent segment="38674"/>
+        <distal x="791.112" y="1391.05" z="527.36" diameter="2.18869"/>
+      </segment>
+      <segment id="38676" name = "Seg5_secden_21">
+        <parent segment="38675"/>
+        <distal x="801.294" y="1392.14" z="510.181" diameter="2.44495"/>
+      </segment>
+      <segment id="38677" name = "Seg6_secden_21">
+        <parent segment="38676"/>
+        <distal x="814.031" y="1394.78" z="494.989" diameter="1.74313"/>
+      </segment>
+      <segment id="38678" name = "Seg7_secden_21">
+        <parent segment="38677"/>
+        <distal x="826.282" y="1398.64" z="479.658" diameter="2.35336"/>
+      </segment>
+      <segment id="38679" name = "Seg8_secden_21">
+        <parent segment="38678"/>
+        <distal x="839.08" y="1394.94" z="464.742" diameter="2.04485"/>
+      </segment>
+      <segment id="38680" name = "Seg9_secden_21">
+        <parent segment="38679"/>
+        <distal x="854.108" y="1401.01" z="453.024" diameter="2.23165"/>
+      </segment>
+      <segment id="38681" name = "Seg10_secden_21">
+        <parent segment="38680"/>
+        <distal x="856.514" y="1402.27" z="433.209" diameter="2.14587"/>
+      </segment>
+      <segment id="38682" name = "Seg11_secden_21">
+        <parent segment="38681"/>
+        <distal x="864.805" y="1405.6" z="415.316" diameter="1.93034"/>
+      </segment>
+      <segment id="38683" name = "Seg12_secden_21">
+        <parent segment="38682"/>
+        <distal x="871.183" y="1406.89" z="396.404" diameter="1.76773"/>
+      </segment>
+      <segment id="38684" name = "Seg13_secden_21">
+        <parent segment="38683"/>
+        <distal x="876.223" y="1408.63" z="377.128" diameter="2.37883"/>
+      </segment>
+      <segment id="38685" name = "Seg14_secden_21">
+        <parent segment="38684"/>
+        <distal x="884.793" y="1412.53" z="359.481" diameter="2.01982"/>
+      </segment>
+      <segment id="38686" name = "Seg15_secden_21">
+        <parent segment="38685"/>
+        <distal x="889.438" y="1413.7" z="340.064" diameter="2.20191"/>
+      </segment>
+      <segment id="38687" name = "Seg16_secden_21">
+        <parent segment="38686"/>
+        <distal x="896.586" y="1414.45" z="321.4" diameter="2.05602"/>
+      </segment>
+      <segment id="38688" name = "Seg17_secden_21">
+        <parent segment="38687"/>
+        <distal x="904.397" y="1417.11" z="303.181" diameter="1.99986"/>
+      </segment>
+      <segment id="38689" name = "Seg18_secden_21">
+        <parent segment="38688"/>
+        <distal x="908.3" y="1418.06" z="283.589" diameter="1.90246"/>
+      </segment>
+      <segment id="38690" name = "Seg19_secden_21">
+        <parent segment="38689"/>
+        <distal x="915.369" y="1420.61" z="265.054" diameter="1.9644"/>
+      </segment>
+      <segment id="38691" name = "Seg20_secden_21">
+        <parent segment="38690"/>
+        <distal x="921.113" y="1422.64" z="246.004" diameter="1.7043"/>
+      </segment>
+<!-- Section: Mitral[58].secden[20] (segmentGroup: secden_20) which has 22 3D points, so 21 segment(s)-->
+      <segment id="38650" name = "Seg0_secden_20">
+        <parent segment="38600"/>
+        <proximal x="715.264" y="1380.3" z="589.622" diameter="2.42587"/>
+        <distal x="732.079" y="1387.29" z="581.348" diameter="2.28892"/>
+      </segment>
+      <segment id="38651" name = "Seg1_secden_20">
+        <parent segment="38650"/>
+        <distal x="748.664" y="1393.63" z="572.148" diameter="2.61953"/>
+      </segment>
+      <segment id="38652" name = "Seg2_secden_20">
+        <parent segment="38651"/>
+        <distal x="762.741" y="1402.64" z="561.162" diameter="2.45945"/>
+      </segment>
+      <segment id="38653" name = "Seg3_secden_20">
+        <parent segment="38652"/>
+        <distal x="772.037" y="1410.57" z="545.329" diameter="2.17531"/>
+      </segment>
+      <segment id="38654" name = "Seg4_secden_20">
+        <parent segment="38653"/>
+        <distal x="787.004" y="1423.4" z="541.931" diameter="2.66673"/>
+      </segment>
+      <segment id="38655" name = "Seg5_secden_20">
+        <parent segment="38654"/>
+        <distal x="797.687" y="1432.68" z="527.802" diameter="2.51628"/>
+      </segment>
+      <segment id="38656" name = "Seg6_secden_20">
+        <parent segment="38655"/>
+        <distal x="810.529" y="1444.16" z="517.637" diameter="2.16622"/>
+      </segment>
+      <segment id="38657" name = "Seg7_secden_20">
+        <parent segment="38656"/>
+        <distal x="818.43" y="1448.99" z="499.91" diameter="2.63551"/>
+      </segment>
+      <segment id="38658" name = "Seg8_secden_20">
+        <parent segment="38657"/>
+        <distal x="824.518" y="1455.06" z="481.852" diameter="2.11679"/>
+      </segment>
+      <segment id="38659" name = "Seg9_secden_20">
+        <parent segment="38658"/>
+        <distal x="835.977" y="1461.54" z="466.794" diameter="2.13914"/>
+      </segment>
+      <segment id="38660" name = "Seg10_secden_20">
+        <parent segment="38659"/>
+        <distal x="843.53" y="1469.73" z="450.184" diameter="1.7051"/>
+      </segment>
+      <segment id="38661" name = "Seg11_secden_20">
+        <parent segment="38660"/>
+        <distal x="840.285" y="1476.89" z="431.794" diameter="2.49087"/>
+      </segment>
+      <segment id="38662" name = "Seg12_secden_20">
+        <parent segment="38661"/>
+        <distal x="848.818" y="1485.39" z="415.831" diameter="1.67697"/>
+      </segment>
+      <segment id="38663" name = "Seg13_secden_20">
+        <parent segment="38662"/>
+        <distal x="855.703" y="1493.7" z="398.99" diameter="1.92039"/>
+      </segment>
+      <segment id="38664" name = "Seg14_secden_20">
+        <parent segment="38663"/>
+        <distal x="855.737" y="1505.82" z="383.083" diameter="2.13284"/>
+      </segment>
+      <segment id="38665" name = "Seg15_secden_20">
+        <parent segment="38664"/>
+        <distal x="861.896" y="1515" z="366.415" diameter="2.16311"/>
+      </segment>
+      <segment id="38666" name = "Seg16_secden_20">
+        <parent segment="38665"/>
+        <distal x="865.921" y="1527.7" z="351.5" diameter="1.5399"/>
+      </segment>
+      <segment id="38667" name = "Seg17_secden_20">
+        <parent segment="38666"/>
+        <distal x="870.007" y="1539.23" z="335.675" diameter="2.09913"/>
+      </segment>
+      <segment id="38668" name = "Seg18_secden_20">
+        <parent segment="38667"/>
+        <distal x="875.054" y="1548.22" z="318.539" diameter="2.11415"/>
+      </segment>
+      <segment id="38669" name = "Seg19_secden_20">
+        <parent segment="38668"/>
+        <distal x="878.419" y="1553.66" z="299.59" diameter="2.24675"/>
+      </segment>
+      <segment id="38670" name = "Seg20_secden_20">
+        <parent segment="38669"/>
+        <distal x="879.728" y="1556.03" z="279.773" diameter="1.61673"/>
+      </segment>
+<!-- Section: Mitral[58].secden[29] (segmentGroup: secden_29) which has 2 3D points, so 1 segment(s)-->
+      <segment id="38729" name = "Seg0_secden_29">
+        <parent segment="38712"/>
+        <proximal x="-373.559" y="947.96" z="664.565" diameter="1.76965"/>
+        <distal x="-386.559" y="935.006" z="656.615" diameter="0.996706"/>
+      </segment>
+<!-- Section: Mitral[58].secden[28] (segmentGroup: secden_28) which has 2 3D points, so 1 segment(s)-->
+      <segment id="38728" name = "Seg0_secden_28">
+        <parent segment="38712"/>
+        <proximal x="-373.559" y="947.96" z="664.565" diameter="1.76965"/>
+        <distal x="-386.534" y="937.952" z="653.098" diameter="1.58135"/>
+      </segment>
+
+<!-- Section: Mitral[58].soma (segmentGroup: soma) which has 21 3D points, so 20 segment(s)-->
+
+      <segmentGroup id = "soma"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <member segment = "38288"/>
+        <member segment = "38289"/>
+        <member segment = "38290"/>
+        <member segment = "38291"/>
+        <member segment = "38292"/>
+        <member segment = "38293"/>
+        <member segment = "38294"/>
+        <member segment = "38295"/>
+        <member segment = "38296"/>
+        <member segment = "38297"/>
+        <member segment = "38298"/>
+        <member segment = "38299"/>
+        <member segment = "38300"/>
+        <member segment = "38301"/>
+        <member segment = "38302"/>
+        <member segment = "38303"/>
+        <member segment = "38304"/>
+        <member segment = "38305"/>
+        <member segment = "38306"/>
+        <member segment = "38307"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].hillock (segmentGroup: hillock) which has 2 3D points, so 1 segment(s)-->
+
+      <segmentGroup id = "hillock"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="3"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38739"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[3] (segmentGroup: secden_3) which has 8 3D points, so 7 segment(s)-->
+
+      <segmentGroup id = "secden_3"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="7"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38340"/>
+        <member segment = "38341"/>
+        <member segment = "38342"/>
+        <member segment = "38343"/>
+        <member segment = "38344"/>
+        <member segment = "38345"/>
+        <member segment = "38346"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[2] (segmentGroup: secden_2) which has 3 3D points, so 2 segment(s)-->
+
+      <segmentGroup id = "secden_2"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="2"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38338"/>
+        <member segment = "38339"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[1] (segmentGroup: secden_1) which has 5 3D points, so 4 segment(s)-->
+
+      <segmentGroup id = "secden_1"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="4"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38334"/>
+        <member segment = "38335"/>
+        <member segment = "38336"/>
+        <member segment = "38337"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[0] (segmentGroup: secden_0) which has 4 3D points, so 3 segment(s)-->
+
+      <segmentGroup id = "secden_0"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="3"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38331"/>
+        <member segment = "38332"/>
+        <member segment = "38333"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].priden (segmentGroup: priden) which has 24 3D points, so 23 segment(s)-->
+
+      <segmentGroup id = "priden"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="23"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38308"/>
+        <member segment = "38309"/>
+        <member segment = "38310"/>
+        <member segment = "38311"/>
+        <member segment = "38312"/>
+        <member segment = "38313"/>
+        <member segment = "38314"/>
+        <member segment = "38315"/>
+        <member segment = "38316"/>
+        <member segment = "38317"/>
+        <member segment = "38318"/>
+        <member segment = "38319"/>
+        <member segment = "38320"/>
+        <member segment = "38321"/>
+        <member segment = "38322"/>
+        <member segment = "38323"/>
+        <member segment = "38324"/>
+        <member segment = "38325"/>
+        <member segment = "38326"/>
+        <member segment = "38327"/>
+        <member segment = "38328"/>
+        <member segment = "38329"/>
+        <member segment = "38330"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].initialseg (segmentGroup: initialseg) which has 2 3D points, so 1 segment(s)-->
+
+      <segmentGroup id = "initialseg"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="3"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38740"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[11] (segmentGroup: secden_11) which has 3 3D points, so 2 segment(s)-->
+
+      <segmentGroup id = "secden_11"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="2"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38491"/>
+        <member segment = "38492"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[10] (segmentGroup: secden_10) which has 26 3D points, so 25 segment(s)-->
+
+      <segmentGroup id = "secden_10"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="25"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38466"/>
+        <member segment = "38467"/>
+        <member segment = "38468"/>
+        <member segment = "38469"/>
+        <member segment = "38470"/>
+        <member segment = "38471"/>
+        <member segment = "38472"/>
+        <member segment = "38473"/>
+        <member segment = "38474"/>
+        <member segment = "38475"/>
+        <member segment = "38476"/>
+        <member segment = "38477"/>
+        <member segment = "38478"/>
+        <member segment = "38479"/>
+        <member segment = "38480"/>
+        <member segment = "38481"/>
+        <member segment = "38482"/>
+        <member segment = "38483"/>
+        <member segment = "38484"/>
+        <member segment = "38485"/>
+        <member segment = "38486"/>
+        <member segment = "38487"/>
+        <member segment = "38488"/>
+        <member segment = "38489"/>
+        <member segment = "38490"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[5] (segmentGroup: secden_5) which has 34 3D points, so 33 segment(s)-->
+
+      <segmentGroup id = "secden_5"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="33"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38353"/>
+        <member segment = "38354"/>
+        <member segment = "38355"/>
+        <member segment = "38356"/>
+        <member segment = "38357"/>
+        <member segment = "38358"/>
+        <member segment = "38359"/>
+        <member segment = "38360"/>
+        <member segment = "38361"/>
+        <member segment = "38362"/>
+        <member segment = "38363"/>
+        <member segment = "38364"/>
+        <member segment = "38365"/>
+        <member segment = "38366"/>
+        <member segment = "38367"/>
+        <member segment = "38368"/>
+        <member segment = "38369"/>
+        <member segment = "38370"/>
+        <member segment = "38371"/>
+        <member segment = "38372"/>
+        <member segment = "38373"/>
+        <member segment = "38374"/>
+        <member segment = "38375"/>
+        <member segment = "38376"/>
+        <member segment = "38377"/>
+        <member segment = "38378"/>
+        <member segment = "38379"/>
+        <member segment = "38380"/>
+        <member segment = "38381"/>
+        <member segment = "38382"/>
+        <member segment = "38383"/>
+        <member segment = "38384"/>
+        <member segment = "38385"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[4] (segmentGroup: secden_4) which has 7 3D points, so 6 segment(s)-->
+
+      <segmentGroup id = "secden_4"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="6"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38347"/>
+        <member segment = "38348"/>
+        <member segment = "38349"/>
+        <member segment = "38350"/>
+        <member segment = "38351"/>
+        <member segment = "38352"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[9] (segmentGroup: secden_9) which has 23 3D points, so 22 segment(s)-->
+
+      <segmentGroup id = "secden_9"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="22"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38444"/>
+        <member segment = "38445"/>
+        <member segment = "38446"/>
+        <member segment = "38447"/>
+        <member segment = "38448"/>
+        <member segment = "38449"/>
+        <member segment = "38450"/>
+        <member segment = "38451"/>
+        <member segment = "38452"/>
+        <member segment = "38453"/>
+        <member segment = "38454"/>
+        <member segment = "38455"/>
+        <member segment = "38456"/>
+        <member segment = "38457"/>
+        <member segment = "38458"/>
+        <member segment = "38459"/>
+        <member segment = "38460"/>
+        <member segment = "38461"/>
+        <member segment = "38462"/>
+        <member segment = "38463"/>
+        <member segment = "38464"/>
+        <member segment = "38465"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[8] (segmentGroup: secden_8) which has 14 3D points, so 13 segment(s)-->
+
+      <segmentGroup id = "secden_8"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="13"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38431"/>
+        <member segment = "38432"/>
+        <member segment = "38433"/>
+        <member segment = "38434"/>
+        <member segment = "38435"/>
+        <member segment = "38436"/>
+        <member segment = "38437"/>
+        <member segment = "38438"/>
+        <member segment = "38439"/>
+        <member segment = "38440"/>
+        <member segment = "38441"/>
+        <member segment = "38442"/>
+        <member segment = "38443"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[7] (segmentGroup: secden_7) which has 36 3D points, so 35 segment(s)-->
+
+      <segmentGroup id = "secden_7"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="35"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38396"/>
+        <member segment = "38397"/>
+        <member segment = "38398"/>
+        <member segment = "38399"/>
+        <member segment = "38400"/>
+        <member segment = "38401"/>
+        <member segment = "38402"/>
+        <member segment = "38403"/>
+        <member segment = "38404"/>
+        <member segment = "38405"/>
+        <member segment = "38406"/>
+        <member segment = "38407"/>
+        <member segment = "38408"/>
+        <member segment = "38409"/>
+        <member segment = "38410"/>
+        <member segment = "38411"/>
+        <member segment = "38412"/>
+        <member segment = "38413"/>
+        <member segment = "38414"/>
+        <member segment = "38415"/>
+        <member segment = "38416"/>
+        <member segment = "38417"/>
+        <member segment = "38418"/>
+        <member segment = "38419"/>
+        <member segment = "38420"/>
+        <member segment = "38421"/>
+        <member segment = "38422"/>
+        <member segment = "38423"/>
+        <member segment = "38424"/>
+        <member segment = "38425"/>
+        <member segment = "38426"/>
+        <member segment = "38427"/>
+        <member segment = "38428"/>
+        <member segment = "38429"/>
+        <member segment = "38430"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[6] (segmentGroup: secden_6) which has 11 3D points, so 10 segment(s)-->
+
+      <segmentGroup id = "secden_6"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="10"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38386"/>
+        <member segment = "38387"/>
+        <member segment = "38388"/>
+        <member segment = "38389"/>
+        <member segment = "38390"/>
+        <member segment = "38391"/>
+        <member segment = "38392"/>
+        <member segment = "38393"/>
+        <member segment = "38394"/>
+        <member segment = "38395"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].tuftden[3] (segmentGroup: tuftden_3) which has 4 3D points, so 3 segment(s)-->
+
+      <segmentGroup id = "tuftden_3"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="3"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38736"/>
+        <member segment = "38737"/>
+        <member segment = "38738"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].tuftden[2] (segmentGroup: tuftden_2) which has 3 3D points, so 2 segment(s)-->
+
+      <segmentGroup id = "tuftden_2"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="2"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38734"/>
+        <member segment = "38735"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].tuftden[1] (segmentGroup: tuftden_1) which has 3 3D points, so 2 segment(s)-->
+
+      <segmentGroup id = "tuftden_1"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="2"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38732"/>
+        <member segment = "38733"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].tuftden[0] (segmentGroup: tuftden_0) which has 3 3D points, so 2 segment(s)-->
+
+      <segmentGroup id = "tuftden_0"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="2"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38730"/>
+        <member segment = "38731"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[13] (segmentGroup: secden_13) which has 9 3D points, so 8 segment(s)-->
+
+      <segmentGroup id = "secden_13"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="8"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38535"/>
+        <member segment = "38536"/>
+        <member segment = "38537"/>
+        <member segment = "38538"/>
+        <member segment = "38539"/>
+        <member segment = "38540"/>
+        <member segment = "38541"/>
+        <member segment = "38542"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[12] (segmentGroup: secden_12) which has 43 3D points, so 42 segment(s)-->
+
+      <segmentGroup id = "secden_12"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="42"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38493"/>
+        <member segment = "38494"/>
+        <member segment = "38495"/>
+        <member segment = "38496"/>
+        <member segment = "38497"/>
+        <member segment = "38498"/>
+        <member segment = "38499"/>
+        <member segment = "38500"/>
+        <member segment = "38501"/>
+        <member segment = "38502"/>
+        <member segment = "38503"/>
+        <member segment = "38504"/>
+        <member segment = "38505"/>
+        <member segment = "38506"/>
+        <member segment = "38507"/>
+        <member segment = "38508"/>
+        <member segment = "38509"/>
+        <member segment = "38510"/>
+        <member segment = "38511"/>
+        <member segment = "38512"/>
+        <member segment = "38513"/>
+        <member segment = "38514"/>
+        <member segment = "38515"/>
+        <member segment = "38516"/>
+        <member segment = "38517"/>
+        <member segment = "38518"/>
+        <member segment = "38519"/>
+        <member segment = "38520"/>
+        <member segment = "38521"/>
+        <member segment = "38522"/>
+        <member segment = "38523"/>
+        <member segment = "38524"/>
+        <member segment = "38525"/>
+        <member segment = "38526"/>
+        <member segment = "38527"/>
+        <member segment = "38528"/>
+        <member segment = "38529"/>
+        <member segment = "38530"/>
+        <member segment = "38531"/>
+        <member segment = "38532"/>
+        <member segment = "38533"/>
+        <member segment = "38534"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[19] (segmentGroup: secden_19) which has 7 3D points, so 6 segment(s)-->
+
+      <segmentGroup id = "secden_19"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="6"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38644"/>
+        <member segment = "38645"/>
+        <member segment = "38646"/>
+        <member segment = "38647"/>
+        <member segment = "38648"/>
+        <member segment = "38649"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[18] (segmentGroup: secden_18) which has 31 3D points, so 30 segment(s)-->
+
+      <segmentGroup id = "secden_18"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="30"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38614"/>
+        <member segment = "38615"/>
+        <member segment = "38616"/>
+        <member segment = "38617"/>
+        <member segment = "38618"/>
+        <member segment = "38619"/>
+        <member segment = "38620"/>
+        <member segment = "38621"/>
+        <member segment = "38622"/>
+        <member segment = "38623"/>
+        <member segment = "38624"/>
+        <member segment = "38625"/>
+        <member segment = "38626"/>
+        <member segment = "38627"/>
+        <member segment = "38628"/>
+        <member segment = "38629"/>
+        <member segment = "38630"/>
+        <member segment = "38631"/>
+        <member segment = "38632"/>
+        <member segment = "38633"/>
+        <member segment = "38634"/>
+        <member segment = "38635"/>
+        <member segment = "38636"/>
+        <member segment = "38637"/>
+        <member segment = "38638"/>
+        <member segment = "38639"/>
+        <member segment = "38640"/>
+        <member segment = "38641"/>
+        <member segment = "38642"/>
+        <member segment = "38643"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[15] (segmentGroup: secden_15) which has 29 3D points, so 28 segment(s)-->
+
+      <segmentGroup id = "secden_15"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="28"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38570"/>
+        <member segment = "38571"/>
+        <member segment = "38572"/>
+        <member segment = "38573"/>
+        <member segment = "38574"/>
+        <member segment = "38575"/>
+        <member segment = "38576"/>
+        <member segment = "38577"/>
+        <member segment = "38578"/>
+        <member segment = "38579"/>
+        <member segment = "38580"/>
+        <member segment = "38581"/>
+        <member segment = "38582"/>
+        <member segment = "38583"/>
+        <member segment = "38584"/>
+        <member segment = "38585"/>
+        <member segment = "38586"/>
+        <member segment = "38587"/>
+        <member segment = "38588"/>
+        <member segment = "38589"/>
+        <member segment = "38590"/>
+        <member segment = "38591"/>
+        <member segment = "38592"/>
+        <member segment = "38593"/>
+        <member segment = "38594"/>
+        <member segment = "38595"/>
+        <member segment = "38596"/>
+        <member segment = "38597"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[14] (segmentGroup: secden_14) which has 28 3D points, so 27 segment(s)-->
+
+      <segmentGroup id = "secden_14"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="27"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38543"/>
+        <member segment = "38544"/>
+        <member segment = "38545"/>
+        <member segment = "38546"/>
+        <member segment = "38547"/>
+        <member segment = "38548"/>
+        <member segment = "38549"/>
+        <member segment = "38550"/>
+        <member segment = "38551"/>
+        <member segment = "38552"/>
+        <member segment = "38553"/>
+        <member segment = "38554"/>
+        <member segment = "38555"/>
+        <member segment = "38556"/>
+        <member segment = "38557"/>
+        <member segment = "38558"/>
+        <member segment = "38559"/>
+        <member segment = "38560"/>
+        <member segment = "38561"/>
+        <member segment = "38562"/>
+        <member segment = "38563"/>
+        <member segment = "38564"/>
+        <member segment = "38565"/>
+        <member segment = "38566"/>
+        <member segment = "38567"/>
+        <member segment = "38568"/>
+        <member segment = "38569"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[17] (segmentGroup: secden_17) which has 14 3D points, so 13 segment(s)-->
+
+      <segmentGroup id = "secden_17"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="13"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38601"/>
+        <member segment = "38602"/>
+        <member segment = "38603"/>
+        <member segment = "38604"/>
+        <member segment = "38605"/>
+        <member segment = "38606"/>
+        <member segment = "38607"/>
+        <member segment = "38608"/>
+        <member segment = "38609"/>
+        <member segment = "38610"/>
+        <member segment = "38611"/>
+        <member segment = "38612"/>
+        <member segment = "38613"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[16] (segmentGroup: secden_16) which has 4 3D points, so 3 segment(s)-->
+
+      <segmentGroup id = "secden_16"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="3"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38598"/>
+        <member segment = "38599"/>
+        <member segment = "38600"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[23] (segmentGroup: secden_23) which has 10 3D points, so 9 segment(s)-->
+
+      <segmentGroup id = "secden_23"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="9"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38693"/>
+        <member segment = "38694"/>
+        <member segment = "38695"/>
+        <member segment = "38696"/>
+        <member segment = "38697"/>
+        <member segment = "38698"/>
+        <member segment = "38699"/>
+        <member segment = "38700"/>
+        <member segment = "38701"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[22] (segmentGroup: secden_22) which has 2 3D points, so 1 segment(s)-->
+
+      <segmentGroup id = "secden_22"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <member segment = "38692"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[27] (segmentGroup: secden_27) which has 2 3D points, so 1 segment(s)-->
+
+      <segmentGroup id = "secden_27"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <member segment = "38727"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[26] (segmentGroup: secden_26) which has 2 3D points, so 1 segment(s)-->
+
+      <segmentGroup id = "secden_26"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <member segment = "38726"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[25] (segmentGroup: secden_25) which has 14 3D points, so 13 segment(s)-->
+
+      <segmentGroup id = "secden_25"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="13"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38713"/>
+        <member segment = "38714"/>
+        <member segment = "38715"/>
+        <member segment = "38716"/>
+        <member segment = "38717"/>
+        <member segment = "38718"/>
+        <member segment = "38719"/>
+        <member segment = "38720"/>
+        <member segment = "38721"/>
+        <member segment = "38722"/>
+        <member segment = "38723"/>
+        <member segment = "38724"/>
+        <member segment = "38725"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[24] (segmentGroup: secden_24) which has 12 3D points, so 11 segment(s)-->
+
+      <segmentGroup id = "secden_24"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="11"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38702"/>
+        <member segment = "38703"/>
+        <member segment = "38704"/>
+        <member segment = "38705"/>
+        <member segment = "38706"/>
+        <member segment = "38707"/>
+        <member segment = "38708"/>
+        <member segment = "38709"/>
+        <member segment = "38710"/>
+        <member segment = "38711"/>
+        <member segment = "38712"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[21] (segmentGroup: secden_21) which has 22 3D points, so 21 segment(s)-->
+
+      <segmentGroup id = "secden_21"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="21"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38671"/>
+        <member segment = "38672"/>
+        <member segment = "38673"/>
+        <member segment = "38674"/>
+        <member segment = "38675"/>
+        <member segment = "38676"/>
+        <member segment = "38677"/>
+        <member segment = "38678"/>
+        <member segment = "38679"/>
+        <member segment = "38680"/>
+        <member segment = "38681"/>
+        <member segment = "38682"/>
+        <member segment = "38683"/>
+        <member segment = "38684"/>
+        <member segment = "38685"/>
+        <member segment = "38686"/>
+        <member segment = "38687"/>
+        <member segment = "38688"/>
+        <member segment = "38689"/>
+        <member segment = "38690"/>
+        <member segment = "38691"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[20] (segmentGroup: secden_20) which has 22 3D points, so 21 segment(s)-->
+
+      <segmentGroup id = "secden_20"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <annotation>
+          <property tag="numberInternalDivisions" value="21"/> <!-- Discretization of model at time of export. Can be overridden by importing application-->
+        </annotation>
+        <member segment = "38650"/>
+        <member segment = "38651"/>
+        <member segment = "38652"/>
+        <member segment = "38653"/>
+        <member segment = "38654"/>
+        <member segment = "38655"/>
+        <member segment = "38656"/>
+        <member segment = "38657"/>
+        <member segment = "38658"/>
+        <member segment = "38659"/>
+        <member segment = "38660"/>
+        <member segment = "38661"/>
+        <member segment = "38662"/>
+        <member segment = "38663"/>
+        <member segment = "38664"/>
+        <member segment = "38665"/>
+        <member segment = "38666"/>
+        <member segment = "38667"/>
+        <member segment = "38668"/>
+        <member segment = "38669"/>
+        <member segment = "38670"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[29] (segmentGroup: secden_29) which has 2 3D points, so 1 segment(s)-->
+
+      <segmentGroup id = "secden_29"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <member segment = "38729"/>
+      </segmentGroup>
+
+
+<!-- Section: Mitral[58].secden[28] (segmentGroup: secden_28) which has 2 3D points, so 1 segment(s)-->
+
+      <segmentGroup id = "secden_28"  neuroLexId="sao864921383">    <!--
+             This group contains an unbranched set of segments, and all of the segmentGroups marked with
+             neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
+             These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections -->
+        <member segment = "38728"/>
+      </segmentGroup>
+
+      <segmentGroup id="ModelViewParmSubset_309"> 
+        <include segmentGroup = "soma"/>
+        <include segmentGroup = "hillock"/>
+        <include segmentGroup = "secden_3"/>
+        <include segmentGroup = "secden_2"/>
+        <include segmentGroup = "secden_1"/>
+        <include segmentGroup = "secden_0"/>
+        <include segmentGroup = "priden"/>
+        <include segmentGroup = "initialseg"/>
+        <include segmentGroup = "secden_11"/>
+        <include segmentGroup = "secden_10"/>
+        <include segmentGroup = "secden_5"/>
+        <include segmentGroup = "secden_4"/>
+        <include segmentGroup = "secden_9"/>
+        <include segmentGroup = "secden_8"/>
+        <include segmentGroup = "secden_7"/>
+        <include segmentGroup = "secden_6"/>
+        <include segmentGroup = "tuftden_3"/>
+        <include segmentGroup = "tuftden_2"/>
+        <include segmentGroup = "tuftden_1"/>
+        <include segmentGroup = "tuftden_0"/>
+        <include segmentGroup = "secden_13"/>
+        <include segmentGroup = "secden_12"/>
+        <include segmentGroup = "secden_19"/>
+        <include segmentGroup = "secden_18"/>
+        <include segmentGroup = "secden_15"/>
+        <include segmentGroup = "secden_14"/>
+        <include segmentGroup = "secden_17"/>
+        <include segmentGroup = "secden_16"/>
+        <include segmentGroup = "secden_23"/>
+        <include segmentGroup = "secden_22"/>
+        <include segmentGroup = "secden_27"/>
+        <include segmentGroup = "secden_26"/>
+        <include segmentGroup = "secden_25"/>
+        <include segmentGroup = "secden_24"/>
+        <include segmentGroup = "secden_21"/>
+        <include segmentGroup = "secden_20"/>
+        <include segmentGroup = "secden_29"/>
+        <include segmentGroup = "secden_28"/>
+      </segmentGroup>
+      <segmentGroup id="ModelViewParmSubset_310"> 
+        <include segmentGroup = "soma"/>
+        <include segmentGroup = "secden_3"/>
+        <include segmentGroup = "secden_2"/>
+        <include segmentGroup = "secden_1"/>
+        <include segmentGroup = "secden_0"/>
+        <include segmentGroup = "priden"/>
+        <include segmentGroup = "secden_11"/>
+        <include segmentGroup = "secden_10"/>
+        <include segmentGroup = "secden_5"/>
+        <include segmentGroup = "secden_4"/>
+        <include segmentGroup = "secden_9"/>
+        <include segmentGroup = "secden_8"/>
+        <include segmentGroup = "secden_7"/>
+        <include segmentGroup = "secden_6"/>
+        <include segmentGroup = "tuftden_3"/>
+        <include segmentGroup = "tuftden_2"/>
+        <include segmentGroup = "tuftden_1"/>
+        <include segmentGroup = "tuftden_0"/>
+        <include segmentGroup = "secden_13"/>
+        <include segmentGroup = "secden_12"/>
+        <include segmentGroup = "secden_19"/>
+        <include segmentGroup = "secden_18"/>
+        <include segmentGroup = "secden_15"/>
+        <include segmentGroup = "secden_14"/>
+        <include segmentGroup = "secden_17"/>
+        <include segmentGroup = "secden_16"/>
+        <include segmentGroup = "secden_23"/>
+        <include segmentGroup = "secden_22"/>
+        <include segmentGroup = "secden_27"/>
+        <include segmentGroup = "secden_26"/>
+        <include segmentGroup = "secden_25"/>
+        <include segmentGroup = "secden_24"/>
+        <include segmentGroup = "secden_21"/>
+        <include segmentGroup = "secden_20"/>
+        <include segmentGroup = "secden_29"/>
+        <include segmentGroup = "secden_28"/>
+      </segmentGroup>
+      <segmentGroup id="ModelViewParmSubset_311"> 
+        <include segmentGroup = "hillock"/>
+        <include segmentGroup = "initialseg"/>
+      </segmentGroup>
+      <segmentGroup id="ModelViewParmSubset_312"> 
+        <include segmentGroup = "soma"/>
+        <include segmentGroup = "hillock"/>
+        <include segmentGroup = "initialseg"/>
+      </segmentGroup>
+      <segmentGroup id="ModelViewParmSubset_313"> 
+        <include segmentGroup = "secden_3"/>
+        <include segmentGroup = "secden_2"/>
+        <include segmentGroup = "secden_1"/>
+        <include segmentGroup = "secden_0"/>
+        <include segmentGroup = "priden"/>
+        <include segmentGroup = "secden_11"/>
+        <include segmentGroup = "secden_10"/>
+        <include segmentGroup = "secden_5"/>
+        <include segmentGroup = "secden_4"/>
+        <include segmentGroup = "secden_9"/>
+        <include segmentGroup = "secden_8"/>
+        <include segmentGroup = "secden_7"/>
+        <include segmentGroup = "secden_6"/>
+        <include segmentGroup = "tuftden_3"/>
+        <include segmentGroup = "tuftden_2"/>
+        <include segmentGroup = "tuftden_1"/>
+        <include segmentGroup = "tuftden_0"/>
+        <include segmentGroup = "secden_13"/>
+        <include segmentGroup = "secden_12"/>
+        <include segmentGroup = "secden_19"/>
+        <include segmentGroup = "secden_18"/>
+        <include segmentGroup = "secden_15"/>
+        <include segmentGroup = "secden_14"/>
+        <include segmentGroup = "secden_17"/>
+        <include segmentGroup = "secden_16"/>
+        <include segmentGroup = "secden_23"/>
+        <include segmentGroup = "secden_22"/>
+        <include segmentGroup = "secden_27"/>
+        <include segmentGroup = "secden_26"/>
+        <include segmentGroup = "secden_25"/>
+        <include segmentGroup = "secden_24"/>
+        <include segmentGroup = "secden_21"/>
+        <include segmentGroup = "secden_20"/>
+        <include segmentGroup = "secden_29"/>
+        <include segmentGroup = "secden_28"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4944"> <!-- Creating a group containing a single section: hillock... -->
+        <include segmentGroup = "hillock"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4945"> <!-- Creating a group containing a single section: secden_3... -->
+        <include segmentGroup = "secden_3"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4946"> <!-- Creating a group containing a single section: secden_2... -->
+        <include segmentGroup = "secden_2"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4947"> <!-- Creating a group containing a single section: secden_1... -->
+        <include segmentGroup = "secden_1"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4948"> <!-- Creating a group containing a single section: secden_0... -->
+        <include segmentGroup = "secden_0"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4949"> <!-- Creating a group containing a single section: priden... -->
+        <include segmentGroup = "priden"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4950"> <!-- Creating a group containing a single section: initialseg... -->
+        <include segmentGroup = "initialseg"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4951"> <!-- Creating a group containing a single section: secden_11... -->
+        <include segmentGroup = "secden_11"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4952"> <!-- Creating a group containing a single section: secden_10... -->
+        <include segmentGroup = "secden_10"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4953"> <!-- Creating a group containing a single section: secden_5... -->
+        <include segmentGroup = "secden_5"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4954"> <!-- Creating a group containing a single section: secden_4... -->
+        <include segmentGroup = "secden_4"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4955"> <!-- Creating a group containing a single section: secden_9... -->
+        <include segmentGroup = "secden_9"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4956"> <!-- Creating a group containing a single section: secden_8... -->
+        <include segmentGroup = "secden_8"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4957"> <!-- Creating a group containing a single section: secden_7... -->
+        <include segmentGroup = "secden_7"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4958"> <!-- Creating a group containing a single section: secden_6... -->
+        <include segmentGroup = "secden_6"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4959"> <!-- Creating a group containing a single section: tuftden_3... -->
+        <include segmentGroup = "tuftden_3"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4960"> <!-- Creating a group containing a single section: tuftden_2... -->
+        <include segmentGroup = "tuftden_2"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4961"> <!-- Creating a group containing a single section: tuftden_1... -->
+        <include segmentGroup = "tuftden_1"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4962"> <!-- Creating a group containing a single section: tuftden_0... -->
+        <include segmentGroup = "tuftden_0"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4963"> <!-- Creating a group containing a single section: secden_13... -->
+        <include segmentGroup = "secden_13"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4964"> <!-- Creating a group containing a single section: secden_12... -->
+        <include segmentGroup = "secden_12"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4965"> <!-- Creating a group containing a single section: secden_19... -->
+        <include segmentGroup = "secden_19"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4966"> <!-- Creating a group containing a single section: secden_18... -->
+        <include segmentGroup = "secden_18"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4967"> <!-- Creating a group containing a single section: secden_15... -->
+        <include segmentGroup = "secden_15"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4968"> <!-- Creating a group containing a single section: secden_14... -->
+        <include segmentGroup = "secden_14"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4969"> <!-- Creating a group containing a single section: secden_17... -->
+        <include segmentGroup = "secden_17"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4970"> <!-- Creating a group containing a single section: secden_16... -->
+        <include segmentGroup = "secden_16"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4971"> <!-- Creating a group containing a single section: secden_23... -->
+        <include segmentGroup = "secden_23"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4975"> <!-- Creating a group containing a single section: secden_25... -->
+        <include segmentGroup = "secden_25"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4976"> <!-- Creating a group containing a single section: secden_24... -->
+        <include segmentGroup = "secden_24"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4977"> <!-- Creating a group containing a single section: secden_21... -->
+        <include segmentGroup = "secden_21"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4978"> <!-- Creating a group containing a single section: secden_20... -->
+        <include segmentGroup = "secden_20"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4943"> <!-- Creating a group containing a single section: soma... -->
+        <include segmentGroup = "soma"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4972"> <!-- Creating a group containing a single section: secden_22... -->
+        <include segmentGroup = "secden_22"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4974"> <!-- Creating a group containing a single section: secden_26... -->
+        <include segmentGroup = "secden_26"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4973"> <!-- Creating a group containing a single section: secden_27... -->
+        <include segmentGroup = "secden_27"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4980"> <!-- Creating a group containing a single section: secden_28... -->
+        <include segmentGroup = "secden_28"/>
+      </segmentGroup>
+      <segmentGroup id="OneSecGrp_SectionRef_4979"> <!-- Creating a group containing a single section: secden_29... -->
+        <include segmentGroup = "secden_29"/>
+      </segmentGroup>
+    </morphology>
+  </cell> 
+</neuroml>

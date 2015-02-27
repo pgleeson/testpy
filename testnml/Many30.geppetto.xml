@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:simulation xmlns:tns="http://www.openworm.org/simulationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="../../main/resources/schema/simulationSchema.xsd">
+    <tns:entity>
+        <tns:id>Olfactory</tns:id>
+        <tns:aspect>
+            <tns:id>NeuroMLModel</tns:id>
+            <tns:simulator>
+                <tns:simulatorId>neuroMLSimulator</tns:simulatorId>
+            </tns:simulator>
+            <tns:model>
+                <tns:modelInterpreterId>neuroMLModelInterpreter</tns:modelInterpreterId>
+                <tns:modelURL>https://raw.githubusercontent.com/pgleeson/testpy/master/testnml/ManyCells30.nml</tns:modelURL>
+
+            </tns:model>
+        </tns:aspect>
+    </tns:entity>
+</tns:simulation>

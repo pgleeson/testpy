@@ -14,12 +14,17 @@
   <include href="Mitral_0_1.cell.nml"/>
 
   <include href="Mitral_0_2.cell.nml"/>
+  <include href="GABA_syn.synapse.nml"/>
 
 
   <network id="network" type="networkWithTemperature" temperature="35 degC">
     <population id="Pop_Mitral_0_0" component="Mitral_0_0" size="1"/>
     <population id="Pop_Mitral_0_1" component="Mitral_0_1" size="1"/>
     <population id="Pop_Mitral_0_2" component="Mitral_0_2" size="1"/>
+
+        <projection id="SmallNet_bask_pyr" presynapticPopulation="Pop_Mitral_0_0" postsynapticPopulation="Pop_Mitral_0_1" synapse="GABA_syn">
+            <connection id="0" preCellId="../Pop_Mitral_0_1/0/Mitral_0_0" postCellId="../Pop_Mitral_0_1/0/Mitral_0_0" preSegmentId="30" preFractionAlong="0.058240294" postSegmentId="60" postFractionAlong="0.026281536"/>
+</projection>
   </network>
  
 </neuroml>

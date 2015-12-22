@@ -1,9 +1,9 @@
 language: python
 
 python:
-  - "2.6"
+  #- "2.6"
   - "2.7"
-  - "3.3"
+  #- "3.3"
 
 # command to install dependencies
 install:
@@ -17,6 +17,8 @@ script:
     - pip install git+https://github.com/OpenSourceBrain/osb-model-validation
     - omv install jLEMS
     - omv install NEURON
+    - ls -alt /home/travis/neuron/nrn/x86_64/bin
+    - /home/travis/neuron/nrn/x86_64/bin/nrnivmodl
     
   #- sudo apt-get install -qq libhdf5-serial-dev 
   #- "pip install cython==0.20.2"

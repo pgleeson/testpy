@@ -19,6 +19,7 @@ script:
     - pip install git+https://github.com/OpenSourceBrain/osb-model-validation
     - omv install jLEMS
     - omv install NEURON
+    - omv list-engines
     - ls -alt /home/travis/neuron/nrn/x86_64/bin
     - /home/travis/neuron/nrn/x86_64/bin/nrnivmodl
     
